@@ -1,0 +1,180 @@
+{
+  "appName": "TubeWise",
+  "app": {
+    "title": "TubeWise",
+    "subtitle": "Assistente de Aprendizagem do YouTube",
+    "description": "Obtenha resumos de vídeos do YouTube com marcadores de tempo e pontos-chave"
+  },
+  "hero": {
+    "title": "Desbloqueie o Poder do YouTube com",
+    "subtitle": "Obtenha resumos instantâneos, pontos-chave com marcadores de tempo e chat interativo com qualquer vídeo do YouTube. Economize tempo e extraia informações valiosas."
+  },
+  "form": {
+    "urlPlaceholder": "Insira um URL de vídeo do YouTube",
+    "submit": "Resumir"
+  },
+  "tab": {
+    "summary": "Resumo",
+    "keyPoints": "Pontos-Chave",
+    "chat": "Chat"
+  },
+  "action": {
+    "addBookmark": "Adicionar aos Favoritos",
+    "removeBookmark": "Remover dos Favoritos",
+    "more": "Mais Ações",
+    "chat": "Conversar com Vídeo",
+    "generate": "Gerar Conteúdo",
+    "watchOnYoutube": "Assistir no YouTube"
+  },
+  "success": {
+    "title": "Sucesso",
+    "videoSaved": "Vídeo salvo em sua coleção",
+    "videoRemoved": "Vídeo removido de sua coleção"
+  },
+  "error": {
+    "title": "Erro",
+    "emptyUrl": "Por favor, insira um URL do YouTube",
+    "invalidUrl": "Por favor, insira um URL válido do YouTube",
+    "gettingSummary": "Falha ao gerar resumo",
+    "fetchingSummary": "Falha ao buscar resumo",
+    "loginRequired": "Você precisa fazer login para salvar vídeos",
+    "savingVideo": "Falha ao salvar vídeo",
+    "chatting": "Falha ao conversar com vídeo"
+  },
+  "seo": {
+    "homeTitle": "TubeWise - Resumidor de Vídeos do YouTube",
+    "homeDescription": "Obtenha resumos de vídeos do YouTube com marcações de tempo e pontos-chave impulsionados por IA"
+  },
+  "home": {
+    "tagline": "Resumos de vídeos do YouTube com marcações de tempo impulsionados por IA"
+  },
+  "auth": {
+    "login": "Entrar",
+    "signup": "Cadastrar",
+    "logout": "Sair",
+    "email": "E-mail",
+    "password": "Senha",
+    "confirmPassword": "Confirmar Senha",
+    "forgotPassword": "Esqueceu sua Senha?",
+    "resetPassword": "Redefinir Senha",
+    "loginSuccess": "Login realizado com sucesso",
+    "signupSuccess": "Conta criada com sucesso",
+    "loginTitle": "Entre na Sua Conta",
+    "loginDescription": "Entre para acessar seus vídeos e resumos salvos",
+    "signupTitle": "Crie uma Nova Conta",
+    "signupDescription": "Cadastre-se para salvar vídeos e criar resumos",
+    "welcomeBack": "Bem-vindo de volta!",
+    "createAccount": "Crie uma nova conta",
+    "name": "Nome Completo",
+    "namePlaceholder": "João Silva",
+    "nameRequired": "Nome é obrigatório",
+    "emailRequired": "E-mail é obrigatório",
+    "invalidEmail": "Por favor, insira um endereço de e-mail válido",
+    "passwordRequired": "Senha é obrigatória",
+    "passwordTooShort": "A senha deve ter pelo menos 8 caracteres",
+    "passwordsDoNotMatch": "As senhas não coincidem",
+    "acceptTerms": "Eu aceito os",
+    "acceptTermsRequired": "Você deve aceitar os termos e condições",
+    "termsOfService": "Termos de Serviço",
+    "and": "e",
+    "privacyPolicy": "Política de Privacidade",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "noAccount": "Não tem uma conta?",
+    "orContinueWith": "ou continue com",
+    "loginFailed": "Falha no login. Por favor, verifique suas credenciais e tente novamente.",
+    "signupFailed": "Falha no cadastro. Por favor, tente novamente mais tarde.",
+    "oauthNotImplemented": "Login OAuth não implementado",
+    "loginNotAvailable": "login ainda não está disponível",
+    "signupNotAvailable": "cadastro ainda não está disponível"
+  },
+  "tabs": {
+    "summarize": "Resumir",
+    "compare": "Comparar",
+    "dashboard": "Painel",
+    "chat": "Chat"
+  },
+  "summary": {
+    "enterUrl": "Digite uma URL do YouTube",
+    "summarize": "Resumir",
+    "summarizing": "Resumindo...",
+    "summaryHeading": "Resumo",
+    "keyPoints": "Pontos-Chave com Marcações de Tempo",
+    "analyzing": "Analisando conteúdo do vídeo...",
+    "success": "Resumo gerado",
+    "successDescription": "Seu vídeo foi resumido com sucesso",
+    "generateContent": "Gerar Conteúdo do Resumo"
+  },
+  "compare": {
+    "title": "Comparar Múltiplos Vídeos",
+    "description": "Compare insights de múltiplos vídeos do YouTube sobre o mesmo tema",
+    "goToCompare": "Ir para Página de Comparação",
+    "compareVideos": "Comparar múltiplos vídeos do YouTube",
+    "backToSummary": "Voltar ao Resumo",
+    "enterUrls": "Digite URLs do YouTube para comparar",
+    "addVideo": "Adicionar Vídeo",
+    "compareButton": "Comparar Vídeos",
+    "atLeastTwo": "Por favor, digite pelo menos duas URLs do YouTube",
+    "comparingVideos": "Analisando e comparando vídeos...",
+    "commonTopics": "Tópicos Comuns",
+    "keyDifferences": "Diferenças Principais",
+    "recommendation": "Recomendação"
+  },
+  "dashboard": {
+    "title": "Seu Painel",
+    "loginPrompt": "Por favor, faça login para ver seus vídeos e resumos salvos",
+    "recentVideos": "Vídeos Recentes",
+    "savedVideos": "Vídeos Salvos",
+    "noSavedVideos": "Você ainda não salvou nenhum vídeo",
+    "viewAll": "Ver Todos"
+  },
+  "chat": {
+    "title": "Chat com Vídeo",
+    "placeholder": "Faça uma pergunta sobre este vídeo...",
+    "send": "Enviar",
+    "thinking": "Pensando...",
+    "noVideo": "Por favor, resuma um vídeo primeiro antes de conversar",
+    "suggestedQuestions": "Perguntas Sugeridas",
+    "timelineNavigator": "Navegador de Linha do Tempo"
+  },
+  "generate": {
+    "title": "Gerar Conteúdo",
+    "description": "Gere diferentes tipos de conteúdo a partir do resumo do seu vídeo",
+    "twitterThread": "Thread do Twitter",
+    "linkedinPost": "Post do LinkedIn",
+    "notionPage": "Página do Notion",
+    "blogPost": "Post de Blog",
+    "emailNewsletter": "Newsletter por E-mail",
+    "generating": "Gerando...",
+    "copyToClipboard": "Copiar para Área de Transferência",
+    "copied": "Copiado!",
+    "selectFormat": "Selecione o Formato de Conteúdo"
+  },
+  "actions": {
+    "save": "Salvar",
+    "share": "Compartilhar",
+    "chat": "Chat com Vídeo",
+    "generateContent": "Gerar Conteúdo",
+    "download": "Baixar",
+    "copy": "Copiar",
+    "delete": "Excluir"
+  },
+  "favorites": {
+    "saved": "Salvo nos Favoritos",
+    "savedDescription": "Este vídeo foi salvo nos seus favoritos",
+    "removed": "Removido dos Favoritos",
+    "removedDescription": "Este vídeo foi removido dos seus favoritos"
+  },
+  "errors": {
+    "emptyUrl": "Por favor, digite uma URL do YouTube",
+    "invalidUrl": "Por favor, digite uma URL válida do YouTube",
+    "failedSummary": "Falha ao gerar resumo",
+    "generalError": "Ocorreu um erro. Por favor, tente novamente mais tarde",
+    "authError": "Erro de autenticação. Por favor, faça login novamente"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "terms": "Termos de Serviço",
+    "privacy": "Política de Privacidade",
+    "contact": "Contate-nos"
+  }
+}

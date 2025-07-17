@@ -1,0 +1,1186 @@
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from typing import List, Optional, Dict, Any
+from youtube_transcript_api import YouTubeTranscriptApi
+import re
+import os
+import json
+import requests
+import math
+import time
+from collections import Counter
+from string import punctuation
+
+# Import OpenAI for high-quality summarization
+import openai
+
+# Import sumy as fallback for text summarization
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.lex_rank import LexRankSummarizer
+from sumy.nlp.stemmers import Stemmer
+from sumy.utils import get_stop_words
+
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Configure OpenAI API
+openai.api_key = os.getenv("OPENAI_API_KEY", "")
+
+# If no API key is found, print a warning
+if not openai.api_key:
+    print("WARNING: No OpenAI API key found. Using fallback summarization methods.")
+
+# Initialize FastAPI app
+app = FastAPI()
+
+# Configure CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
+
+# Define data models
+class VideoRequest(BaseModel):
+    url: str
+
+class MultiVideoRequest(BaseModel):
+    videoUrls: List[str]
+
+class ChatRequest(BaseModel):
+    videoId: str
+    message: str
+
+class ContentGenerationRequest(BaseModel):
+    videoId: str
+    contentType: str
+    summary: Optional[str] = None
+    title: Optional[str] = None
+    keyPoints: Optional[List[Dict[str, str]]] = None
+
+class KeyPoint(BaseModel):
+    timestamp: str
+    point: str
+
+class Summary(BaseModel):
+    videoId: str
+    title: str
+    summary: str
+    keyPoints: List[KeyPoint]
+
+class ComparisonResult(BaseModel):
+    commonTopics: List[str]
+    differences: List[str]
+    recommendation: str
+
+class TimelineSuggestion(BaseModel):
+    timestamp: str
+    text: str
+    relevance: str
+
+class ChatResponse(BaseModel):
+    videoId: str
+    response: str
+    timeline_suggestions: List[TimelineSuggestion]
+
+class ContentGenerationResult(BaseModel):
+    content: str
+    format: str
+    title: str
+
+class SummaryResponse(BaseModel):
+    videoId: str
+    summary: str
+    keyPoints: List[KeyPoint]
+
+# Utility functions
+def extract_video_id(url: str) -> Optional[str]:
+    """Extract YouTube video ID from URL."""
+    patterns = [
+        r'(?:v=|\/)([0-9A-Za-z_-]{11}).*',  # Standard YouTube URL
+        r'(?:youtu\.be\/)([0-9A-Za-z_-]{11})',  # Short YouTube URL
+        r'^([0-9A-Za-z_-]{11})$'  # Direct video ID
+    ]
+    
+    for pattern in patterns:
+        match = re.search(pattern, url)
+        if match:
+            return match.group(1)
+    
+    return None
+
+def get_video_info(video_id: str) -> Dict[str, Any]:
+    """Get video information from YouTube."""
+    try:
+        # In a production environment, you would use the YouTube Data API
+        # For this demo, we'll make a simple request to get the video title
+        response = requests.get(f"https://noembed.com/embed?url=https://www.youtube.com/watch?v={video_id}")
+        if response.status_code == 200:
+            data = response.json()
+            return {
+                "title": data.get("title", "YouTube Video"),
+                "author": data.get("author_name", "Unknown"),
+                "thumbnail": data.get("thumbnail_url", "")
+            }
+    except Exception as e:
+        print(f"Error getting video info: {e}")
+    
+    # Return default info if request fails
+    return {
+        "title": "YouTube Video",
+        "author": "Unknown",
+        "thumbnail": ""
+    }
+
+# Multi-Agent System Implementation
+class BaseAgent:
+    """Base class for all agents in the system."""
+    def __init__(self, name):
+        self.name = name
+        print(f"Agent {name} initialized")
+    
+    def process(self, input_data):
+        """Process input data and return result."""
+        raise NotImplementedError("Subclasses must implement this method")
+
+class TranscriptAgent(BaseAgent):
+    """Agent responsible for extracting transcripts from YouTube videos."""
+    def __init__(self):
+        super().__init__("TranscriptAgent")
+    
+    def process(self, video_id):
+        """Get transcript for a YouTube video."""
+        try:
+            transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
+            return " ".join([item["text"] for item in transcript_list])
+        except Exception as e:
+            print(f"Error getting transcript: {e}")
+            raise HTTPException(status_code=404, detail=f"Failed to get transcript: {str(e)}")
+
+class SummaryAgent(BaseAgent):
+    """Agent responsible for generating summaries from transcripts."""
+    def __init__(self):
+        super().__init__("SummaryAgent")
+    
+    def process(self, data):
+        """Generate summary from transcript."""
+        transcript, video_id = data
+        try:
+            # Get video info
+            video_info = get_video_info(video_id)
+            video_title = video_info.get("title", "YouTube Video")
+            
+            # Ensure the transcript isn't too long before processing
+            # If it's very long, truncate it for processing to avoid overwhelming the summarizer
+            max_transcript_length = 15000  # Maximum number of words to process
+            words = transcript.split()
+            if len(words) > max_transcript_length:
+                print(f"Transcript too long ({len(words)} words), truncating to {max_transcript_length} words")
+                processed_transcript = " ".join(words[:max_transcript_length])
+            else:
+                processed_transcript = transcript
+            
+            # Create a high-quality summary of the entire video using OpenAI
+            summary_text = self._generate_openai_summary(processed_transcript, video_title)
+            
+            # If OpenAI summarization fails, use fallback methods
+            if not summary_text or len(summary_text) < 50:
+                print("OpenAI summarization failed or returned too short summary, using fallback methods")
+                summary_text = self._generate_fallback_summary(processed_transcript)
+            
+            # Extract key points with timestamps using OpenAI
+            key_points = self._extract_key_points_with_openai(processed_transcript, video_id)
+            
+            # If OpenAI key point extraction fails, use fallback method
+            if not key_points or len(key_points) < 3:
+                print("OpenAI key point extraction failed, using fallback method")
+                key_points = self._extract_key_points_fallback(processed_transcript, video_id)
+            
+            return Summary(
+                videoId=video_id,
+                title=video_title,
+                summary=summary_text,
+                keyPoints=key_points
+            )
+        except Exception as e:
+            print(f"Error generating summary: {e}")
+            raise HTTPException(status_code=500, detail=f"Failed to generate summary: {str(e)}")
+    
+    def _generate_openai_summary(self, transcript, video_title="YouTube Video"):
+        """Generate a high-quality summary using OpenAI API."""
+        try:
+            # Check if OpenAI API key is available
+            if not openai.api_key:
+                print("No OpenAI API key available for summarization")
+                return None
+                
+            # If the transcript is very short, just return it
+            if len(transcript.split()) < 200:
+                return transcript
+                
+            # For long transcripts, split into chunks and summarize each chunk
+            max_chunk_size = 12000  # Characters per chunk (adjusted to stay within token limits)
+            
+            if len(transcript) > max_chunk_size:
+                print(f"Transcript is long ({len(transcript)} chars), splitting into chunks")
+                
+                # Split transcript into chunks
+                chunks = [transcript[i:i+max_chunk_size] for i in range(0, len(transcript), max_chunk_size)]
+                print(f"Split transcript into {len(chunks)} chunks")
+                
+                # Summarize each chunk
+                chunk_summaries = []
+                for i, chunk in enumerate(chunks):
+                    print(f"Summarizing chunk {i+1}/{len(chunks)}")
+                    
+                    # Prepare the prompt for this chunk
+                    chunk_prompt = f"""Below is part {i+1} of {len(chunks)} from the transcript of a YouTube video titled '{video_title}'.
+                    Please provide a brief summary (100-150 words) of THIS PART ONLY, focusing on the main points and key insights.
+                    
+                    TRANSCRIPT PART {i+1}/{len(chunks)}:
+                    {chunk}
+                    
+                    SUMMARY OF THIS PART:"""
+                    
+                    # Call OpenAI API with retry logic for this chunk
+                    max_retries = 3
+                    chunk_summary = None
+                    
+                    for attempt in range(max_retries):
+                        try:
+                            response = openai.chat.completions.create(
+                                model="gpt-3.5-turbo-16k",
+                                messages=[
+                                    {"role": "system", "content": "You are an expert video summarizer. Create concise, informative summaries that capture the essence of video content."},
+                                    {"role": "user", "content": chunk_prompt}
+                                ],
+                                max_tokens=500,
+                                temperature=0.5,
+                            )
+                            
+                            # Extract the summary from the response
+                            chunk_summary = response.choices[0].message.content.strip()
+                            
+                            # Ensure we got a meaningful summary
+                            if chunk_summary and len(chunk_summary) > 50:
+                                chunk_summaries.append(chunk_summary)
+                                break
+                            else:
+                                print(f"OpenAI returned too short summary for chunk {i+1}, attempt {attempt+1}/{max_retries}")
+                                
+                        except Exception as e:
+                            print(f"OpenAI API error on chunk {i+1}, attempt {attempt+1}/{max_retries}: {e}")
+                            if attempt < max_retries - 1:
+                                time.sleep(2)  # Wait before retrying
+                    
+                    # If all attempts failed for this chunk, add a placeholder
+                    if not chunk_summary or len(chunk_summary) <= 50:
+                        print(f"Failed to get a good summary for chunk {i+1}, using fallback")
+                        fallback_summary = self._simple_summarize(chunk, sentences_count=3)
+                        chunk_summaries.append(fallback_summary)
+                
+                # Now combine all chunk summaries and create a final summary
+                combined_summaries = "\n\n".join([f"Part {i+1}: {summary}" for i, summary in enumerate(chunk_summaries)])
+                
+                # Create a final comprehensive summary from the chunk summaries
+                final_prompt = f"""Below are summaries of different parts of a YouTube video titled '{video_title}'.
+                Please create a comprehensive yet concise final summary (250-300 words) that integrates all these parts into a coherent overview.
+                Focus on the most important points and ensure the summary gives a complete picture of the video content.
+                
+                PART SUMMARIES:
+                {combined_summaries}
+                
+                FINAL COMPREHENSIVE SUMMARY:"""
+                
+                # Call OpenAI API for the final summary
+                max_retries = 3
+                for attempt in range(max_retries):
+                    try:
+                        response = openai.chat.completions.create(
+                            model="gpt-3.5-turbo-16k",
+                            messages=[
+                                {"role": "system", "content": "You are an expert at creating comprehensive summaries from partial summaries. Create a coherent, flowing summary that captures the essence of the entire content."},
+                                {"role": "user", "content": final_prompt}
+                            ],
+                            max_tokens=600,
+                            temperature=0.5,
+                        )
+                        
+                        # Extract the final summary
+                        final_summary = response.choices[0].message.content.strip()
+                        
+                        # Ensure we got a meaningful summary
+                        if final_summary and len(final_summary) > 100:
+                            return final_summary
+                        else:
+                            print(f"OpenAI returned too short final summary, attempt {attempt+1}/{max_retries}")
+                            
+                    except Exception as e:
+                        print(f"OpenAI API error on final summary, attempt {attempt+1}/{max_retries}: {e}")
+                        if attempt < max_retries - 1:
+                            time.sleep(2)  # Wait before retrying
+                
+                # If final summary generation failed, just concatenate the chunk summaries
+                print("Failed to generate final summary, returning concatenated chunk summaries")
+                return " ".join(chunk_summaries)
+                    
+                    # Call OpenAI API with retry logic for this chunk
+                    max_retries = 3
+                    chunk_summary = None
+                    
+                    for attempt in range(max_retries):
+                        try:
+                            response = openai.chat.completions.create(
+                                model="gpt-3.5-turbo-16k",
+                                messages=[
+                                    {"role": "system", "content": "You are an expert video summarizer. Create concise, informative summaries that capture the essence of video content."},
+                                    {"role": "user", "content": chunk_prompt}
+                                ],
+                                max_tokens=500,
+                                temperature=0.5,
+                            )
+                            
+                            # Extract the summary from the response
+                            chunk_summary = response.choices[0].message.content.strip()
+                            
+                            # Ensure we got a meaningful summary
+                            if chunk_summary and len(chunk_summary) > 50:
+                                chunk_summaries.append(chunk_summary)
+                                break
+                            else:
+                                print(f"OpenAI returned too short summary for chunk {i+1}, attempt {attempt+1}/{max_retries}")
+                                
+                        except Exception as e:
+                            print(f"OpenAI API error on chunk {i+1}, attempt {attempt+1}/{max_retries}: {e}")
+                            if attempt < max_retries - 1:
+                                time.sleep(2)  # Wait before retrying
+                    
+                    # If all attempts failed for this chunk, add a placeholder
+                    if not chunk_summary or len(chunk_summary) <= 50:
+                        print(f"Failed to get a good summary for chunk {i+1}, using fallback")
+                        fallback_summary = self._simple_summarize(chunk, sentences_count=3)
+                        chunk_summaries.append(fallback_summary)
+                
+                # Now combine all chunk summaries and create a final summary
+                combined_summaries = "\n\n".join([f"Part {i+1}: {summary}" for i, summary in enumerate(chunk_summaries)])
+                
+                # Create a final comprehensive summary from the chunk summaries
+                final_prompt = f"""Below are summaries of different parts of a YouTube video titled '{video_title}'.
+                Please create a comprehensive yet concise final summary (250-300 words) that integrates all these parts into a coherent overview.
+                Focus on the most important points and ensure the summary gives a complete picture of the video content.
+                
+                PART SUMMARIES:
+                {combined_summaries}
+                
+                FINAL COMPREHENSIVE SUMMARY:"""
+                
+                # Call OpenAI API for the final summary
+                max_retries = 3
+                for attempt in range(max_retries):
+                    try:
+                        response = openai.chat.completions.create(
+                            model="gpt-3.5-turbo-16k",
+                            messages=[
+                                {"role": "system", "content": "You are an expert at creating comprehensive summaries from partial summaries. Create a coherent, flowing summary that captures the essence of the entire content."},
+                                {"role": "user", "content": final_prompt}
+                            ],
+                            max_tokens=600,
+                            temperature=0.5,
+                        )
+                        
+                        # Extract the final summary
+                        final_summary = response.choices[0].message.content.strip()
+                        
+                        # Ensure we got a meaningful summary
+                        if final_summary and len(final_summary) > 100:
+                            return final_summary
+                        else:
+                            print(f"OpenAI returned too short final summary, attempt {attempt+1}/{max_retries}")
+                            
+                    except Exception as e:
+                        print(f"OpenAI API error on final summary, attempt {attempt+1}/{max_retries}: {e}")
+                        if attempt < max_retries - 1:
+                            time.sleep(2)  # Wait before retrying
+                
+                # If final summary generation failed, just concatenate the chunk summaries
+                print("Failed to generate final summary, returning concatenated chunk summaries")
+                return " ".join(chunk_summaries)
+                
+                # Call OpenAI API with retry logic
+                max_retries = 3
+                for attempt in range(max_retries):
+                    try:
+                        response = openai.chat.completions.create(
+                            model="gpt-3.5-turbo-16k",  # Using a model with larger context window
+                            messages=[
+                                {"role": "system", "content": "You are an expert video summarizer. Create concise, informative summaries that capture the essence of video content."},
+                                {"role": "user", "content": chunk_prompt}
+                            ],
+                            max_tokens=500,
+                            temperature=0.5,  # Lower temperature for more focused output
+                        )
+                        
+                        # Extract the summary from the response
+                        summary = response.choices[0].message.content.strip()
+                        
+                        # Ensure we got a meaningful summary
+                        if summary and len(summary) > 100:
+                            chunk_summaries.append(summary)
+                            break
+                        else:
+                            print(f"OpenAI returned too short summary for chunk {i+1}, attempt {attempt+1}/{max_retries}")
+                            
+                    except Exception as e:
+                        print(f"OpenAI API error on attempt {attempt+1}/{max_retries}: {e}")
+                        if attempt < max_retries - 1:
+                            time.sleep(2)  # Wait before retrying
+                            
+                # If we get here, all attempts failed
+                if not chunk_summaries:
+                    print("All OpenAI summarization attempts failed for chunk", i+1)
+                    chunk_summaries.append("Failed to summarize chunk")
+                    
+            # Combine chunk summaries into a single summary
+            summary_text = " ".join(chunk_summaries)
+            
+            return summary_text
+            
+        else:
+            # Prepare the prompt for OpenAI
+            prompt = f"""Below is the transcript of a YouTube video titled '{video_title}'. 
+            Please provide a comprehensive yet concise summary (200-300 words) that captures the main points and key insights from the entire video.
+            Focus on the most important information and ensure the summary gives a complete overview of what the video is about.
+            
+            TRANSCRIPT:
+            {transcript[:15000]}  # Limit to 15000 chars to stay within token limits
+            
+            SUMMARY:"""
+            
+            # Call OpenAI API with retry logic
+            max_retries = 3
+            for attempt in range(max_retries):
+                try:
+                    response = openai.chat.completions.create(
+                        model="gpt-3.5-turbo-16k",  # Using a model with larger context window
+                        messages=[
+                            {"role": "system", "content": "You are an expert video summarizer. Create concise, informative summaries that capture the essence of video content."},
+                            {"role": "user", "content": prompt}
+                        ],
+                        max_tokens=500,
+                        temperature=0.5,  # Lower temperature for more focused output
+                    )
+                    
+                    # Extract the summary from the response
+                    summary = response.choices[0].message.content.strip()
+                    
+                    # Ensure we got a meaningful summary
+                    if summary and len(summary) > 100:
+                        return summary
+                    else:
+                        print(f"OpenAI returned too short summary, attempt {attempt+1}/{max_retries}")
+                        
+                except Exception as e:
+                    print(f"OpenAI API error on attempt {attempt+1}/{max_retries}: {e}")
+                    if attempt < max_retries - 1:
+                        time.sleep(2)  # Wait before retrying
+                        
+            # If we get here, all attempts failed
+            print("All OpenAI summarization attempts failed")
+            return None
+            
+        except Exception as e:
+            print(f"Error in OpenAI summarization: {e}")
+            return None
+            
+    def _generate_fallback_summary(self, transcript):
+        """Generate a summary using fallback methods when OpenAI is not available or fails."""
+        try:
+            # If the transcript is very short, just return it
+            if len(transcript.split()) < 200:
+                return transcript
+                
+            # Use LexRank for summarization (one of the most reliable algorithms)
+            lexrank_summary = self._lexrank_summarize(transcript, sentences_count=10)
+            
+            # If LexRank fails, use a simple extractive method
+            if not lexrank_summary or len(lexrank_summary) < 100:
+                return self._simple_summarize(transcript, sentences_count=10)
+                
+            return lexrank_summary
+            
+        except Exception as e:
+            print(f"Error in fallback summarization: {e}")
+            # Last resort: return first 300 words of transcript
+            words = transcript.split()
+            return " ".join(words[:300]) + "..."
+            
+        except Exception as e:
+            print(f"Error in summarization: {e}")
+            # Fallback to a simpler summarization if the advanced methods fail
+            return self._simple_summarize(transcript, sentences_count=15)
+    
+    def _split_text_into_chunks(self, text, max_length=2000):
+        """Split text into chunks of approximately max_length words."""
+        words = text.split()
+        chunks = []
+        
+        for i in range(0, len(words), max_length):
+            chunk = " ".join(words[i:i + max_length])
+            chunks.append(chunk)
+            
+        return chunks
+    
+    def _lexrank_summarize(self, text, sentences_count=10, language="english"):
+        """Summarize text using LexRank algorithm."""
+        # Make sure we have enough text to summarize
+        if not text or len(text.split()) < sentences_count * 2:
+            return text
+            
+        try:
+            parser = PlaintextParser.from_string(text, Tokenizer(language))
+            stemmer = Stemmer(language)
+            summarizer = LexRankSummarizer(stemmer)
+            summarizer.stop_words = get_stop_words(language)
+            
+            # Get summary sentences
+            summary_sentences = summarizer(parser.document, sentences_count)
+            summary = " ".join(str(sentence) for sentence in summary_sentences)
+            
+            # Verify we got a real summary
+            if not summary or len(summary) < 20:
+                return text[:500] + "..." if len(text) > 500 else text
+                
+            return summary
+        except Exception as e:
+            print(f"LexRank summarization error: {e}")
+            return text[:500] + "..." if len(text) > 500 else text
+    
+    def _combine_summaries(self, summaries):
+        """Combine multiple summaries by selecting unique sentences."""
+        # Split summaries into sentences and remove duplicates
+        all_sentences = []
+        for summary in summaries:
+            sentences = summary.split(". ")
+            for sentence in sentences:
+                if sentence and sentence not in all_sentences:
+                    all_sentences.append(sentence)
+        
+        # Join sentences back into a single summary
+        return ". ".join(all_sentences)
+    
+    def _simple_summarize(self, text, sentences_count=10):
+        """A simple summarization method based on word frequency."""
+        # Make sure we have enough text to summarize
+        if not text or len(text.split()) < sentences_count * 2:
+            return text[:500] + "..." if len(text) > 500 else text
+            
+        try:
+            # Make a copy of the text to preserve the original
+            original_text = text
+            
+            # Remove punctuation and convert to lowercase for analysis
+            text_for_analysis = text.lower()
+            for p in punctuation:
+                text_for_analysis = text_for_analysis.replace(p, ' ')
+            
+            # Split into words and count frequency
+            word_frequencies = Counter(text_for_analysis.split())
+            
+            # Remove common stop words
+            stop_words = ['the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'with', 'by', 'about',
+                         'as', 'into', 'like', 'through', 'after', 'over', 'between', 'out', 'against', 'during', 'without',
+                         'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did',
+                         'this', 'that', 'these', 'those', 'it', 'they', 'them', 'their', 'what', 'which', 'who',
+                         'whom', 'whose', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more',
+                         'most', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very']
+            
+            for word in stop_words:
+                if word in word_frequencies:
+                    del word_frequencies[word]
+            
+            # Get the maximum frequency to normalize scores
+            max_frequency = max(word_frequencies.values()) if word_frequencies else 1
+            
+            # Normalize word frequencies
+            for word in word_frequencies:
+                word_frequencies[word] = word_frequencies[word] / max_frequency
+            
+            # Split text into sentences more carefully
+            sentences = [s.strip() for s in re.split(r'[.!?]', original_text) if s.strip()]
+            
+            # Calculate sentence scores based on normalized word frequency
+            sentence_scores = {}
+            for sentence in sentences:
+                if sentence:
+                    # Avoid scoring very short sentences highly
+                    if len(sentence.split()) < 4:
+                        continue
+                        
+                    for word in sentence.lower().split():
+                        if word in word_frequencies:
+                            if sentence in sentence_scores:
+                                sentence_scores[sentence] += word_frequencies[word]
+                            else:
+                                sentence_scores[sentence] = word_frequencies[word]
+            
+            # If we couldn't score any sentences, return a truncated version of the original
+            if not sentence_scores:
+                return original_text[:500] + "..." if len(original_text) > 500 else original_text
+            
+            # Get top sentences
+            import heapq
+            summary_sentences = heapq.nlargest(sentences_count, sentence_scores, key=sentence_scores.get)
+            
+            # Join sentences back into a summary
+            summary = ". ".join(summary_sentences)
+            
+            # Add a period if it doesn't end with one
+            if not summary.endswith(".") and not summary.endswith("!") and not summary.endswith("?"):
+                summary += "."
+                
+            return summary
+            
+        except Exception as e:
+            print(f"Simple summarization error: {e}")
+            return original_text[:500] + "..." if len(original_text) > 500 else original_text
+    
+    def _extract_key_points_with_openai(self, transcript, video_id):
+        """Extract key points with timestamps using OpenAI API."""
+        try:
+            # Check if OpenAI API key is available
+            if not openai.api_key:
+                print("No OpenAI API key available for key point extraction")
+                return None
+                
+            # If the transcript is very short, use a simpler method
+            if len(transcript.split()) < 200:
+                return self._extract_key_points_fallback(transcript, video_id)
+                
+            # Split transcript into segments to identify timestamps
+            segments = self._split_transcript_into_segments(transcript, 5)
+            
+            # Prepare the prompt for OpenAI
+            prompt = f"""Below is the transcript of a YouTube video. 
+            Please identify 5 key points from the transcript, distributed throughout the video.
+            Each key point should be a concise, informative statement that captures an important insight or topic from the video.
+            
+            TRANSCRIPT:
+            {transcript[:15000]}  # Limit to 15000 chars to stay within token limits
+            
+            FORMAT YOUR RESPONSE EXACTLY LIKE THIS EXAMPLE:
+            1. [First key point in a single sentence]
+            2. [Second key point in a single sentence]
+            3. [Third key point in a single sentence]
+            4. [Fourth key point in a single sentence]
+            5. [Fifth key point in a single sentence]
+            
+            KEY POINTS:"""
+            
+            # Call OpenAI API with retry logic
+            max_retries = 3
+            for attempt in range(max_retries):
+                try:
+                    response = openai.chat.completions.create(
+                        model="gpt-3.5-turbo",
+                        messages=[
+                            {"role": "system", "content": "You are an expert at identifying the most important points from video transcripts."},
+                            {"role": "user", "content": prompt}
+                        ],
+                        max_tokens=300,
+                        temperature=0.3,  # Lower temperature for more focused output
+                    )
+                    
+                    # Extract the key points from the response
+                    key_points_text = response.choices[0].message.content.strip()
+                    
+                    # Parse the key points
+                    extracted_points = []
+                    for line in key_points_text.split('\n'):
+                        line = line.strip()
+                        if re.match(r'^\d+\.\s', line):  # Lines starting with a number and period
+                            point_text = re.sub(r'^\d+\.\s', '', line).strip()
+                            if point_text:
+                                extracted_points.append(point_text)
+                    
+                    # Ensure we got enough key points
+                    if len(extracted_points) >= 3:
+                        # Create KeyPoint objects with timestamps
+                        result = []
+                        for i, point in enumerate(extracted_points[:5]):  # Limit to 5 points
+                            # Calculate timestamp based on segment position
+                            if i < len(segments):
+                                segment_start = segments[i][0]
+                                minutes = int(segment_start / 150)  # Assuming 150 words per minute
+                                seconds = int((segment_start / 150 - minutes) * 60)
+                                timestamp = f"{minutes}:{seconds:02d}"
+                                result.append(KeyPoint(timestamp=timestamp, point=point))
+                        
+                        return result
+                    else:
+                        print(f"OpenAI returned too few key points, attempt {attempt+1}/{max_retries}")
+                        
+                except Exception as e:
+                    print(f"OpenAI API error on attempt {attempt+1}/{max_retries}: {e}")
+                    if attempt < max_retries - 1:
+                        time.sleep(2)  # Wait before retrying
+                        
+            # If we get here, all attempts failed
+            print("All OpenAI key point extraction attempts failed")
+            return None
+            
+        except Exception as e:
+            print(f"Error in OpenAI key point extraction: {e}")
+            return None
+    
+    def _split_transcript_into_segments(self, transcript, num_segments=5):
+        """Split transcript into equal segments and return start/end indices."""
+        words = transcript.split()
+        total_words = len(words)
+        segment_size = max(1, total_words // num_segments)
+        
+        segments = []
+        for i in range(num_segments):
+            start_idx = i * segment_size
+            end_idx = min(start_idx + segment_size, total_words)
+            
+            if start_idx >= total_words:
+                break
+                
+            segments.append((start_idx, end_idx))
+            
+        return segments
+            
+    def _extract_key_points_fallback(self, transcript, video_id):
+        """Extract key points with timestamps using fallback methods."""
+        try:
+            # Use LexRank to find important sentences
+            parser = PlaintextParser.from_string(transcript, Tokenizer("english"))
+            stemmer = Stemmer("english")
+            summarizer = LexRankSummarizer(stemmer)
+            summarizer.stop_words = get_stop_words("english")
+            
+            # Split transcript into segments
+            segments = self._split_transcript_into_segments(transcript, 5)
+            words = transcript.split()
+            
+            # Get more sentences than we need
+            top_sentences = list(summarizer(parser.document, 15))
+            
+            key_points = []
+            for i, (start_idx, end_idx) in enumerate(segments):
+                segment = ' '.join(words[start_idx:end_idx])
+                
+                # Find the best sentence for this segment
+                best_sentence = None
+                for sentence in top_sentences:
+                    sentence_str = str(sentence)
+                    if sentence_str in segment or any(part in segment for part in sentence_str.split(", ") if len(part) > 30):
+                        best_sentence = sentence_str
+                        top_sentences.remove(sentence)  # Remove so we don't reuse it
+                        break
+                
+                # If no good sentence found, use the first sentence of the segment
+                if not best_sentence:
+                    segment_sentences = [s.strip() for s in re.split(r'[.!?]', segment) if s.strip()]
+                    best_sentence = segment_sentences[0] if segment_sentences else segment[:100] + "..."
+                
+                # Calculate timestamp
+                minutes = int(start_idx / 150)  # Assuming 150 words per minute
+                seconds = int((start_idx / 150 - minutes) * 60)
+                timestamp = f"{minutes}:{seconds:02d}"
+                
+                key_points.append(KeyPoint(timestamp=timestamp, point=best_sentence))
+            
+            return key_points
+            
+        except Exception as e:
+            print(f"Error extracting key points: {e}")
+            # Fallback method if the advanced method fails
+            return self._simple_extract_key_points(transcript, video_id)
+    
+    def _simple_extract_key_points(self, transcript, video_id):
+        """A simpler method to extract key points with timestamps."""
+        # Split transcript into 5 equal segments
+        words = transcript.split()
+        total_words = len(words)
+        segment_size = max(1, total_words // 5)
+        
+        key_points = []
+        for i in range(5):
+            start_idx = i * segment_size
+            end_idx = min(start_idx + segment_size, total_words)
+            
+            if start_idx >= total_words:
+                break
+                
+            segment = ' '.join(words[start_idx:end_idx])
+            
+            # Get the first sentence that's not too short
+            sentences = segment.split('.')
+            best_sentence = ""
+            for sentence in sentences:
+                if len(sentence.split()) >= 10:
+                    best_sentence = sentence.strip()
+                    break
+            
+            if not best_sentence and sentences:
+                best_sentence = sentences[0].strip()
+            
+            # Calculate timestamp
+            minutes_so_far = start_idx / 150
+            minutes = int(minutes_so_far)
+            seconds = int((minutes_so_far - minutes) * 60)
+            timestamp = f"{minutes}:{seconds:02d}"
+            
+            key_points.append(KeyPoint(timestamp=timestamp, point=best_sentence))
+        
+        return key_points
+        
+    def _timestamp_to_seconds(self, timestamp):
+        """Convert timestamp string (mm:ss) to seconds."""
+        parts = timestamp.split(':')
+        return int(parts[0]) * 60 + int(parts[1])
+        
+    def _force_concise_summary(self, text, max_words=300):
+        """Force a concise summary by using multiple methods and strictly limiting length."""
+        # Try multiple summarization methods and use the shortest good result
+        summaries = []
+        
+        # Method 1: TextRank with very few sentences
+        try:
+            textrank_summary = self._textrank_summarize(text, sentences_count=5)
+            if textrank_summary and len(textrank_summary) > 50:
+                summaries.append(textrank_summary)
+        except Exception:
+            pass
+            
+        # Method 2: LexRank with very few sentences
+        try:
+            lexrank_summary = self._lexrank_summarize(text, sentences_count=5)
+            if lexrank_summary and len(lexrank_summary) > 50:
+                summaries.append(lexrank_summary)
+        except Exception:
+            pass
+            
+        # Method 3: Simple frequency-based summary
+        try:
+            simple_summary = self._simple_summarize(text, sentences_count=5)
+            if simple_summary and len(simple_summary) > 50:
+                summaries.append(simple_summary)
+        except Exception:
+            pass
+            
+        # Method 4: Just take the first few sentences as a last resort
+        sentences = [s.strip() for s in re.split(r'[.!?]', text) if s.strip()]
+        first_sentences = ". ".join(sentences[:7])
+        if first_sentences:
+            summaries.append(first_sentences)
+            
+        # Choose the shortest summary that's still substantial
+        valid_summaries = [s for s in summaries if len(s.split()) >= 50]
+        if valid_summaries:
+            shortest_summary = min(valid_summaries, key=lambda x: len(x.split()))
+        else:
+            # If no valid summaries, use the first one or a truncated version of the text
+            shortest_summary = summaries[0] if summaries else text[:500] + "..."
+            
+        # Ensure the summary doesn't exceed max_words
+        words = shortest_summary.split()
+        if len(words) > max_words:
+            shortest_summary = " ".join(words[:max_words])
+            if not shortest_summary.endswith("."):
+                shortest_summary += "."
+                
+        return shortest_summary
+
+class ComparisonAgent(BaseAgent):
+    """Agent responsible for comparing multiple video summaries."""
+    def __init__(self):
+        super().__init__("ComparisonAgent")
+    
+    def process(self, summaries):
+        """Compare multiple video summaries."""
+        try:
+            # Extract titles and summaries
+            titles = [summary.title for summary in summaries]
+            summary_texts = [summary.summary for summary in summaries]
+            
+            # Generate comparison (simplified for demo)
+            common_topics = ["Both videos discuss similar topics", "They share educational content"]
+            differences = [
+                f"{titles[0]} focuses more on theory, while {titles[1]} is more practical",
+                f"{titles[0]} is more detailed in some areas, while {titles[1]} covers additional points"
+            ]
+            recommendation = f"Watch {titles[0]} first for background, then {titles[1]} for practical applications."
+            
+            return ComparisonResult(
+                commonTopics=common_topics,
+                differences=differences,
+                recommendation=recommendation
+            )
+        except Exception as e:
+            print(f"Error comparing videos: {e}")
+            raise HTTPException(status_code=500, detail=f"Failed to compare videos: {str(e)}")
+
+class ChatAgent(BaseAgent):
+    """Agent responsible for answering questions about videos."""
+    def __init__(self):
+        super().__init__("ChatAgent")
+    
+    def process(self, data):
+        """Generate response to user question about video."""
+        transcript, summary, question = data
+        try:
+            # Generate chat response (simplified for demo)
+            response = f"Based on the video '{summary.title}', the answer to your question about '{question}' is related to the main topics covered in the video."
+            
+            # Extract timeline suggestions
+            timeline_suggestions = []
+            for key_point in summary.keyPoints:
+                if any(word.lower() in key_point.point.lower() for word in question.lower().split()):
+                    timeline_suggestions.append(
+                        TimelineSuggestion(
+                            timestamp=key_point.timestamp,
+                            text=key_point.point,
+                            relevance="high" if question.lower() in key_point.point.lower() else "medium"
+                        )
+                    )
+            
+            # If no direct matches, provide some general suggestions
+            if not timeline_suggestions and summary.keyPoints:
+                timeline_suggestions = [
+                    TimelineSuggestion(
+                        timestamp=summary.keyPoints[0].timestamp,
+                        text=summary.keyPoints[0].point,
+                        relevance="medium"
+                    )
+                ]
+            
+            return ChatResponse(
+                videoId=summary.videoId,
+                response=response,
+                timeline_suggestions=timeline_suggestions[:3]  # Limit to top 3 suggestions
+            )
+        except Exception as e:
+            print(f"Error generating chat response: {e}")
+            raise HTTPException(status_code=500, detail=f"Failed to generate chat response: {str(e)}")
+
+class ContentGenerationAgent(BaseAgent):
+    """Agent responsible for generating content from video summaries."""
+    def __init__(self):
+        super().__init__("ContentGenerationAgent")
+    
+    def process(self, data):
+        """Generate content based on video summary."""
+        summary, content_type = data
+        try:
+            # Extract key points as dict for content generation
+            key_points_dict = [{"timestamp": kp.timestamp, "point": kp.point} for kp in summary.keyPoints]
+            
+            # Generate content based on type (simplified for demo)
+            if content_type == "twitter":
+                content = f"🧵 Thread about {summary.title}:\n\n1/ {summary.summary[:100]}...\n\n2/ Key insights: {key_points_dict[0]['point'] if key_points_dict else 'None'}\n\n3/ Follow for more content like this!"
+            elif content_type == "linkedin":
+                content = f"# {summary.title}\n\n{summary.summary}\n\nKey takeaways:\n- {key_points_dict[0]['point'] if key_points_dict else 'None'}\n- {key_points_dict[1]['point'] if len(key_points_dict) > 1 else 'None'}\n\n#Learning #ProfessionalDevelopment"
+            else:
+                content = f"# Summary of {summary.title}\n\n{summary.summary}\n\n## Key Points\n\n" + "\n".join([f"- {kp['point']}" for kp in key_points_dict])
+            
+            return ContentGenerationResult(
+                content=content,
+                format=content_type,
+                title=f"{summary.title} - {content_type.capitalize()}"
+            )
+        except Exception as e:
+            print(f"Error generating content: {e}")
+            raise HTTPException(status_code=500, detail=f"Failed to generate content: {str(e)}")
+
+# Orchestrator for multi-agent system
+class AgentOrchestrator:
+    """Orchestrates the multi-agent system."""
+    def __init__(self):
+        self.transcript_agent = TranscriptAgent()
+        self.summary_agent = SummaryAgent()
+        self.comparison_agent = ComparisonAgent()
+        self.chat_agent = ChatAgent()
+        self.content_generation_agent = ContentGenerationAgent()
+        print("Agent Orchestrator initialized")
+    
+    def summarize_video(self, video_id):
+        """Orchestrate the video summarization process."""
+        # Step 1: Get transcript
+        transcript = self.transcript_agent.process(video_id)
+        
+        # Step 2: Generate summary
+        summary = self.summary_agent.process((transcript, video_id))
+        
+        return summary
+    
+    def compare_videos(self, video_ids):
+        """Orchestrate the video comparison process."""
+        summaries = []
+        
+        # Step 1: Get summaries for all videos
+        for video_id in video_ids:
+            summary = self.summarize_video(video_id)
+            summaries.append(summary)
+        
+        # Step 2: Generate comparison
+        comparison = self.comparison_agent.process(summaries)
+        
+        return {
+            "summaries": summaries,
+            "comparison": comparison
+        }
+    
+    def chat_with_video(self, video_id, question):
+        """Orchestrate the chat with video process."""
+        # Step 1: Get transcript and summary
+        transcript = self.transcript_agent.process(video_id)
+        summary = self.summary_agent.process((transcript, video_id))
+        
+        # Step 2: Generate chat response
+        response = self.chat_agent.process((transcript, summary, question))
+        
+        return response
+    
+    def generate_content(self, video_id, content_type, existing_summary=None):
+        """Orchestrate the content generation process."""
+        # Step 1: Get summary if not provided
+        if existing_summary:
+            summary = existing_summary
+        else:
+            summary = self.summarize_video(video_id)
+        
+        # Step 2: Generate content
+        content = self.content_generation_agent.process((summary, content_type))
+        
+        return content
+
+# Initialize orchestrator
+orchestrator = AgentOrchestrator()
+
+# API Routes
+@app.get("/")
+def read_root():
+    return {"message": "TubeWise AI Service API"}
+
+@app.post("/api/summarize")
+def summarize_video(request: VideoRequest):
+    try:
+        # Extract video ID from URL
+        video_id = extract_video_id(request.url)
+        if not video_id:
+            return JSONResponse(
+                status_code=400,
+                content={"error": "Invalid YouTube URL"}
+            )
+        
+        # Use orchestrator to summarize video
+        summary = orchestrator.summarize_video(video_id)
+        
+        return {
+            "videoId": video_id,
+            "title": summary.title,
+            "summary": summary.summary,
+            "keyPoints": summary.keyPoints
+        }
+    except Exception as e:
+        print(f"Unexpected error in summarize_video: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"An unexpected error occurred: {str(e)}"}
+        )
+
+@app.get("/api/summary/{video_id}")
+def get_summary(video_id: str):
+    try:
+        # Use orchestrator to summarize video
+        summary = orchestrator.summarize_video(video_id)
+        
+        return summary
+    except Exception as e:
+        print(f"Error in get_summary: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Failed to get summary: {str(e)}"}
+        )
+
+@app.post("/api/compare")
+def compare_videos(request: MultiVideoRequest):
+    try:
+        video_ids = []
+        
+        for url in request.videoUrls:
+            # Extract video ID from URL
+            video_id = extract_video_id(url)
+            if video_id:
+                video_ids.append(video_id)
+        
+        if len(video_ids) < 2:
+            raise HTTPException(status_code=400, detail="At least two valid YouTube URLs are required")
+        
+        # Use orchestrator to compare videos
+        result = orchestrator.compare_videos(video_ids)
+        
+        return result
+    except Exception as e:
+        print(f"Error in compare_videos: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Failed to compare videos: {str(e)}"}
+        )
+
+@app.post("/api/chat")
+def chat_with_video(request: ChatRequest):
+    try:
+        # Use orchestrator to chat with video
+        response = orchestrator.chat_with_video(request.videoId, request.message)
+        
+        return response
+    except Exception as e:
+        print(f"Error in chat_with_video: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Failed to chat with video: {str(e)}"}
+        )
+
+@app.post("/api/generate-content")
+def generate_content(request: ContentGenerationRequest):
+    try:
+        # If summary is provided, use it; otherwise fetch it
+        existing_summary = None
+        if request.summary and request.title and request.keyPoints:
+            # Create Summary object from provided data
+            key_points = [KeyPoint(timestamp=kp["timestamp"], point=kp["point"]) for kp in request.keyPoints]
+            existing_summary = Summary(
+                videoId=request.videoId,
+                title=request.title,
+                summary=request.summary,
+                keyPoints=key_points
+            )
+        
+        # Use orchestrator to generate content
+        content = orchestrator.generate_content(
+            request.videoId, 
+            request.contentType, 
+            existing_summary
+        )
+        
+        return content
+    except Exception as e:
+        print(f"Error in generate_content: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Failed to generate content: {str(e)}"}
+        )
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8085)

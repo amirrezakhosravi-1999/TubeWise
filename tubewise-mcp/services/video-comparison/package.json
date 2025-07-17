@@ -1,0 +1,24 @@
+{
+  "name": "video-comparison-service",
+  "version": "1.0.0",
+  "description": "TubeWise Video Comparison Service",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "openai": "^4.100.0",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,161 @@
+/* TubeWise Chrome Extension - Popup Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+  color: #212121;
+  background-color: #f5f5f5;
+}
+
+.popup-container {
+  width: 320px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #8e24aa;
+  color: white;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.version {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* Content */
+.popup-content {
+  padding: 16px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #424242;
+}
+
+.section p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #616161;
+  margin-bottom: 12px;
+}
+
+/* Setting items */
+.setting-item {
+  margin-bottom: 12px;
+}
+
+.setting-item label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.setting-item input[type="text"],
+.setting-item select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Toggle switch */
+.setting-item input[type="checkbox"] {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.toggle:after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+
+input[type="checkbox"]:checked + .toggle {
+  background-color: #8e24aa;
+}
+
+input[type="checkbox"]:checked + .toggle:after {
+  left: 21px;
+}
+
+/* Links */
+.links {
+  display: flex;
+  gap: 12px;
+}
+
+.links a {
+  color: #8e24aa;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.popup-footer {
+  padding: 12px 16px;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#save-btn {
+  padding: 8px 16px;
+  background-color: #8e24aa;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+#save-btn:hover {
+  background-color: #7b1fa2;
+}

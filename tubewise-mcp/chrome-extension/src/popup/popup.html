@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TubeWise</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="popup-header">
+      <div class="logo">TubeWise</div>
+      <div class="version">v1.0.0</div>
+    </div>
+    
+    <div class="popup-content">
+      <div class="section">
+        <h3>Settings</h3>
+        
+        <div class="setting-item">
+          <label for="sidebar-toggle">
+            <span>Enable Sidebar</span>
+            <input type="checkbox" id="sidebar-toggle" checked>
+            <span class="toggle"></span>
+          </label>
+        </div>
+        
+        <div class="setting-item">
+          <label for="auto-summarize">
+            <span>Auto-Summarize Videos</span>
+            <input type="checkbox" id="auto-summarize">
+            <span class="toggle"></span>
+          </label>
+        </div>
+        
+        <div class="setting-item">
+          <label for="language-select">Language</label>
+          <select id="language-select">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="pt">Português</option>
+          </select>
+        </div>
+        
+        <div class="setting-item">
+          <label for="api-url">API URL</label>
+          <input type="text" id="api-url" placeholder="http://localhost:8000/api">
+        </div>
+        
+        <div class="setting-item">
+          <button id="test-api-btn" class="button">Test API Connection</button>
+          <div id="api-status" class="status-message"></div>
+        </div>
+      </div>
+      
+      <div class="section">
+        <h3>About</h3>
+        <p>TubeWise helps you quickly digest YouTube videos with AI-powered summaries, chat, and interactive timestamps.</p>
+        <div class="links">
+          <a href="https://tubewise.app" target="_blank">Website</a>
+          <a href="https://tubewise.app/help" target="_blank">Help</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="popup-footer">
+      <button id="save-btn">Save Settings</button>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

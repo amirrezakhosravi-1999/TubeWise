@@ -1,0 +1,1691 @@
+2025-04-22 14:54:06,214 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 14:54:58,481 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 14:55:23,399 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:09:13,073 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:15:40,296 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:18:28,956 - tubewise-api-server - ERROR - Error generating summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:18:28,959 - tubewise-api-server - ERROR - Error extracting key points: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:18:57,536 - tubewise-api-server - ERROR - Error generating chat response: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:19:34,363 - tubewise-api-server - ERROR - Error comparing videos: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:23:38,412 - tubewise-api-server - ERROR - Error generating summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:23:38,412 - tubewise-api-server - ERROR - Error extracting key points: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:23:50,440 - tubewise-api-server - ERROR - Error generating chat response: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:24:13,179 - tubewise-api-server - ERROR - Error generating chat response: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:24:39,754 - tubewise-api-server - ERROR - Error comparing videos: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:29:53,197 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:30:23,613 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:31:41,608 - tubewise-api-server - ERROR - Error generating summary: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:31:41,609 - tubewise-api-server - ERROR - Error extracting key points: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:31:41,610 - tubewise-api-server - ERROR - Error generating content: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:31:51,915 - tubewise-api-server - ERROR - Error generating chat response: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 15:34:48,801 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 15:34:48,802 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 15:34:49,072 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:34:55,299 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 15:34:55,299 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 15:34:55,330 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:35:23,815 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 15:35:23,816 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 15:35:23,847 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:36:53,139 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 15:36:55,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 15:37:14,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 15:39:14,683 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 15:39:14,684 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 15:39:14,753 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:39:47,951 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 15:39:47,951 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 15:39:47,981 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:39:49,747 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 15:39:49,748 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 15:39:49,779 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 15:40:24,077 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 15:40:24,077 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 15:40:24,111 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:18:15,225 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:18:15,225 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:18:15,473 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:20:31,343 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:20:31,343 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:20:31,373 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:21:48,704 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:21:48,705 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:21:48,737 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:22:23,463 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 16:22:27,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 16:23:09,824 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:23:09,824 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:23:09,857 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:24:22,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 16:24:22,299 - tubewise-api-server - ERROR - Error in generate_chat_response: name 'find_timeline_suggestions' is not defined
+2025-04-22 16:24:33,149 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 16:24:33,155 - tubewise-api-server - ERROR - Error in generate_chat_response: name 'find_timeline_suggestions' is not defined
+2025-04-22 16:29:17,532 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:29:17,533 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:29:17,812 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:30:14,690 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 16:30:14,691 - tubewise-api-server - ERROR - Error in generate_chat_response: name 'find_timeline_suggestions' is not defined
+2025-04-22 16:31:49,124 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:31:49,124 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:31:49,158 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:32:21,998 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:32:21,998 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:32:22,032 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:32:59,284 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:32:59,284 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:32:59,314 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:33:10,081 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:33:10,081 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:33:10,114 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:33:27,903 - tubewise-api-server - ERROR - Error generating chat response: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-22 16:33:34,678 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:33:34,679 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:33:34,709 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:34:09,770 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:34:09,771 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:34:09,804 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:34:33,925 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:34:33,926 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:34:33,955 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:37:40,296 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:37:40,297 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:37:40,355 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:38:10,537 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:38:10,539 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:38:10,567 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:38:34,906 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 16:38:34,906 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 16:38:34,936 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 16:47:42,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 16:47:46,887 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 16:58:37,877 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 16:58:41,780 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 17:00:16,636 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:00:16,637 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:00:16,809 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:01:22,037 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:01:22,038 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:01:22,071 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:01:37,421 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:01:37,421 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:01:37,451 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:19:38,823 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 17:19:45,227 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 17:19:54,633 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:19:54,634 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:19:54,809 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:20:09,015 - tubewise-api-server - INFO - Received chat message: What is the main theme of this song?
+2025-04-22 17:20:19,562 - tubewise-api-server - ERROR - Error getting transcript: ('Connection broken: IncompleteRead(6841 bytes read, 1606 more expected)', IncompleteRead(6841 bytes read, 1606 more expected))
+2025-04-22 17:20:19,562 - tubewise-api-server - INFO - Creating mock transcript data for video: dQw4w9WgXcQ
+2025-04-22 17:21:18,240 - tubewise-api-server - INFO - Received chat message: ????? ???? ??? ????? ?????
+2025-04-22 17:55:48,111 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:55:48,111 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:55:48,140 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:55:48,143 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:55:48,491 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:55:48,496 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:55:50,458 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:55:50,459 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:55:50,492 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:55:50,524 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:55:50,524 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:55:50,563 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:56:51,933 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:56:51,933 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:56:51,963 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:57:03,179 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 17:57:03,180 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 17:57:03,212 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 17:57:50,367 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 17:57:51,698 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 18:09:07,071 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-04-22 18:09:07,072 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-04-22 18:09:07,103 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-04-22 18:09:38,034 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-22 18:09:41,633 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 13:58:41,263 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-09 13:58:41,290 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-09 13:58:41,995 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-09 14:01:28,452 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-09 14:01:28,453 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-09 14:01:28,499 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-10 11:30:13,672 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-10 11:30:13,716 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-10 11:30:14,411 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-10 11:36:03,662 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-10 11:36:03,662 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-10 11:36:03,707 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-10 15:09:25,266 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-10 15:09:25,294 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-10 15:09:25,593 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-13 09:22:44,973 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-13 09:22:44,975 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-13 09:22:45,871 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-13 09:27:26,898 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-13 09:27:26,899 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-13 09:27:26,941 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-13 09:28:07,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:28:11,738 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:33:15,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:33:18,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:33:43,649 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:33:47,656 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:33:51,803 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:33:54,890 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:37:13,389 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-13 09:37:13,389 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-13 09:37:13,436 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-13 09:38:09,971 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-13 09:38:09,971 - tubewise-api-server - INFO - Creating mock transcript data for video: l7gaTtrKi3Q
+2025-05-13 09:38:13,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:38:15,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:38:48,703 - tubewise-api-server - ERROR - Error getting transcript: ('Connection broken: IncompleteRead(1264 bytes read, 7307 more expected)', IncompleteRead(1264 bytes read, 7307 more expected))
+2025-05-13 09:38:48,703 - tubewise-api-server - INFO - Creating mock transcript data for video: LDEBs9Qw1aU
+2025-05-13 09:38:50,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:38:51,721 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:39:26,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:39:28,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:39:45,116 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:39:48,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:39:53,744 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:39:55,610 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:40:08,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:40:11,479 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:40:31,313 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:40:33,810 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:40:38,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-13 09:40:40,560 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:06:40,088 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-17 16:06:40,088 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-17 16:06:41,720 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-17 16:10:53,108 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:10:57,708 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:11:11,051 - tubewise-api-server - INFO - Received chat message: What the video is about?
+2025-05-17 16:11:22,409 - tubewise-api-server - INFO - Received chat message: What the video is about?
+2025-05-17 16:11:56,028 - tubewise-api-server - INFO - Received chat message: What is the name of the tool introduced in video?
+2025-05-17 16:14:58,947 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-17 16:14:58,947 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-17 16:14:59,231 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-17 16:16:22,382 - tubewise-api-server - INFO - Received chat message: What is this video about?
+2025-05-17 16:17:01,124 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-17 16:17:01,124 - tubewise-api-server - INFO - Creating mock transcript data for video: qFSoL_wkPe4
+2025-05-17 16:17:03,217 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:17:05,519 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:17:31,073 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-17 16:17:31,073 - tubewise-api-server - INFO - Creating mock transcript data for video: qFSoL_wkPe4
+2025-05-17 16:17:33,286 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:17:34,542 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:21:21,300 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:21:24,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:21:57,245 - tubewise-api-server - INFO - Received chat message: Which tool is introduced in video?
+2025-05-17 16:22:30,922 - tubewise-api-server - ERROR - Error getting transcript: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=qFSoL_wkPe4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026D6AB342C0>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))
+2025-05-17 16:22:30,930 - tubewise-api-server - INFO - Creating mock transcript data for video: qFSoL_wkPe4
+2025-05-17 16:23:28,752 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-17 16:23:28,752 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-17 16:23:29,062 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-17 16:28:38,860 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-17 16:28:38,862 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-17 16:28:38,918 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-17 16:31:43,662 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-17 16:31:43,666 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-17 16:31:43,709 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-17 16:32:49,870 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:32:54,076 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:33:29,356 - tubewise-api-server - INFO - Received chat message: Which tool is introduced in video?
+2025-05-17 16:33:31,921 - tubewise-api-server - INFO - OpenAI available: True, API key set: True
+2025-05-17 16:33:31,921 - tubewise-api-server - INFO - Video title: YouTube Video qFSoL_wkPe4, Query: Which tool is introduced in video?
+2025-05-17 16:33:31,923 - tubewise-api-server - INFO - Transcript length: 5853 characters
+2025-05-17 16:33:31,923 - tubewise-api-server - INFO - Using new OpenAI API (>=1.0.0)
+2025-05-17 16:33:32,926 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 16:33:32,929 - tubewise-api-server - INFO - OpenAI API response received: ChatCompletion(id='chatcmpl-BYBULT6rApU0YFLtOsPKv6skg71v2', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='The tool introduced in the video is called "Storm" and it has been designed by Stanford University to help with ethical writing.', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1747487013, model='gpt-3.5-turbo-0125', object='chat.completion', service_tier='default', system_fingerprint=None, usage=CompletionUsage(completion_tokens=25, prompt_tokens=834, total_tokens=859, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
+2025-05-17 16:33:32,929 - tubewise-api-server - INFO - Generated answer: The tool introduced in the video is called "Storm" and it has been designed by Stanford University to help with ethical writing.
+2025-05-17 16:33:32,929 - tubewise-api-server - INFO - Generated response for video qFSoL_wkPe4 based on actual content
+2025-05-17 17:02:55,311 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-17 17:02:55,312 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-17 17:02:55,600 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-19 08:51:10,155 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-19 08:51:10,156 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-19 08:51:10,437 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-19 09:39:45,419 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 09:39:45,429 - tubewise-api-server - INFO - Creating mock transcript data for video: -pXNLl81b3U
+2025-05-19 09:39:48,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 09:39:50,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 09:40:41,676 - tubewise-api-server - INFO - Received chat message: What points the video emphasizes on?
+2025-05-19 09:40:47,156 - tubewise-api-server - INFO - OpenAI available: True, API key set: True
+2025-05-19 09:40:47,156 - tubewise-api-server - INFO - Video title: YouTube Video -pXNLl81b3U, Query: What points the video emphasizes on?
+2025-05-19 09:40:47,156 - tubewise-api-server - INFO - Transcript length: 7036 characters
+2025-05-19 09:40:47,157 - tubewise-api-server - INFO - Using new OpenAI API (>=1.0.0)
+2025-05-19 09:40:49,005 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 09:40:49,006 - tubewise-api-server - INFO - OpenAI API response received: ChatCompletion(id='chatcmpl-BYnzyOXOYsHLHwXL1OXKfsTqjjQmB', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='The video emphasizes on the challenges of creating professional presentations, such as spending a lot of time adjusting fonts and formats, the need to customize multiple versions of presentations for different audiences, and the tedious work of aligning elements in multiple slides. It also highlights the time-saving benefits of using an AI presentation tool like AIPT to instantly create stunning and professional slides, allowing users to focus on the core content and improve work efficiency. The video provides a step-by-step guide on how to use the AIPT tool to generate presentations quickly and easily.', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1747635046, model='gpt-3.5-turbo-0125', object='chat.completion', service_tier='default', system_fingerprint=None, usage=CompletionUsage(completion_tokens=107, prompt_tokens=891, total_tokens=998, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
+2025-05-19 09:40:49,007 - tubewise-api-server - INFO - Generated answer: The video emphasizes on the challenges of creating professional presentations, such as spending a lot of time adjusting fonts and formats, the need to customize multiple versions of presentations for different audiences, and the tedious work of aligning elements in multiple slides. It also highlights the time-saving benefits of using an AI presentation tool like AIPT to instantly create stunning and professional slides, allowing users to focus on the core content and improve work efficiency. The video provides a step-by-step guide on how to use the AIPT tool to generate presentations quickly and easily.
+2025-05-19 09:40:49,007 - tubewise-api-server - INFO - Generated response for video -pXNLl81b3U based on actual content
+2025-05-19 09:44:05,933 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 09:44:05,933 - tubewise-api-server - INFO - Creating mock transcript data for video: -pXNLl81b3U
+2025-05-19 09:44:11,229 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 09:44:12,417 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 09:52:54,779 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 09:52:57,540 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:29:31,158 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:29:33,020 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:30:52,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:30:54,020 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:30:56,150 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 14:30:56,150 - tubewise-api-server - INFO - Creating mock transcript data for video: -pXNLl81b3U
+2025-05-19 14:31:00,209 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:31:01,809 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:37:27,755 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:37:29,854 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:37:36,215 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 14:37:39,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:51:43,025 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:51:45,600 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:51:46,997 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:51:51,911 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:51:53,583 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:51:55,076 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:51:57,308 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:51:59,083 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:52:00,709 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:52:02,185 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:52:03,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:52:04,997 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:52:06,569 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:52:09,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:52:10,781 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:52:13,389 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:52:18,287 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:52:19,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:57:45,423 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:57:49,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:57:50,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:57:53,223 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:57:55,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:57:56,927 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:57:58,698 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:58:00,162 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:01,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:04,956 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:58:06,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:07,973 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:07,983 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31521.484 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 16:58:09,522 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:58:11,293 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:15,078 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:18,037 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:58:19,895 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:21,233 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:24,260 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:58:25,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:27,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:30,855 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:58:33,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:34,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:34,703 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31547.484 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 16:58:36,291 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:58:38,574 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:41,927 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:43,547 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:58:46,047 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:47,245 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:47,264 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31561.734 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 16:58:53,926 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:58:56,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:57,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:58:59,316 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:59:03,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:05,386 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:07,970 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:59:09,478 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:10,711 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:12,722 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:59:15,326 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:17,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:18,457 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:59:20,337 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:22,304 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:22,307 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31590.531 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 16:59:23,878 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:59:26,326 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:28,198 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:29,957 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:59:32,380 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:33,415 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:33,418 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31608.015 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 16:59:35,204 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:59:36,400 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:37,515 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:39,739 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:59:43,880 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:46,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:47,302 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 16:59:50,307 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:51,842 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 16:59:51,845 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31625.89 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:00:00,522 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:00:06,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:09,993 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:12,321 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:00:15,756 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:17,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:19,943 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:00:21,195 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:22,503 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:24,277 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:00:28,052 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:29,655 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:31,381 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:00:34,192 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:35,668 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:36,912 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:00:38,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:39,773 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:39,774 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31669.468 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:00:39,775 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31669.468 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:00:41,099 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:00:43,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:44,583 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:47,314 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:00:49,481 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:50,843 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:00:55,440 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:00:58,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:01,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:01,104 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31690.656 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:01:12,635 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:01:15,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:17,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:20,046 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:01:21,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:23,259 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:25,059 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:01:28,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:30,371 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:32,552 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:01:37,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:39,013 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:39,019 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31730.187 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:01:40,408 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:01:43,469 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:45,047 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:46,676 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:01:50,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:51,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:54,836 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:01:56,780 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:01:58,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:00,492 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:02:02,419 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:04,441 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:07,371 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:02:09,379 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:10,943 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:12,514 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:02:14,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:16,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:18,133 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:02:19,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:21,466 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:26,252 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:02:28,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:29,970 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:31,093 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:02:34,300 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:35,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:40,666 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:02:45,400 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:46,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:46,665 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=31795.484 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:02:48,984 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:02:51,270 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:52,693 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:02:55,353 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:02:58,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:00,231 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:02,391 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:03:05,905 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:07,012 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:08,092 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:03:11,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:12,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:13,601 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:03:16,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:17,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:19,205 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:03:21,162 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:22,666 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:24,675 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:03:26,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:03:28,985 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:09:55,578 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:10:04,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:05,602 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:18,335 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:10:21,383 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:22,453 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:24,605 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:10:31,149 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:36,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:37,582 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:10:39,210 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:40,466 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:44,988 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:10:48,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:49,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:54,030 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:10:56,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:57,954 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:10:59,657 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:02,008 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:03,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:08,425 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:10,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:11,793 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:12,973 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:15,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:16,690 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:19,342 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:20,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:21,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:23,048 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:26,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:27,890 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:29,178 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:31,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:32,959 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:35,298 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:38,731 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:40,344 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:43,045 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:44,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:46,644 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:48,375 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:50,159 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:51,816 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:54,865 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:11:57,658 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:11:58,955 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:02,753 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:05,095 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:08,731 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:10,276 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:12,333 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:13,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:15,745 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:20,002 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:21,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:22,826 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:24,895 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:26,763 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:26,776 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=32381.265 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:12:29,066 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:30,998 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:32,296 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:34,524 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:35,836 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:36,834 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:38,618 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:40,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:41,344 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:43,276 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:45,794 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:47,108 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:47,109 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=32401.156 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:12:49,685 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:51,644 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:53,092 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:12:54,695 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:12:57,130 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:01,155 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:05,305 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:13:07,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:10,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:14,229 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:13:16,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:17,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:17,611 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=32430.093 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:13:18,816 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:13:20,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:21,615 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:24,723 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:13:26,400 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:28,525 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:30,069 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:13:33,360 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:35,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:40,885 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:13:46,859 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:48,783 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:50,180 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:13:52,936 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:54,926 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:13:54,928 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=32468.593 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:13:58,415 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:14:00,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:01,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:08,902 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:14:11,552 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:13,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:15,923 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:14:19,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:21,573 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:23,074 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:14:25,213 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:28,932 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:28,939 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=32501.39 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:14:30,927 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:14:33,154 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:36,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:41,665 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:14:43,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:45,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:47,774 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:14:49,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:14:53,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:15:03,590 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:15:08,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:15:09,953 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:15:12,081 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:15:13,859 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:15:15,063 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:16:36,983 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:16:40,185 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:16:41,771 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:16:43,409 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:16:45,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:16:47,715 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:16:50,369 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:16:52,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:16:55,049 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:16:58,148 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:17:00,527 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:17:02,413 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:17:12,319 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:17:17,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:17:19,372 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:17:29,912 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:17:41,211 - openai._base_client - INFO - Retrying request to /chat/completions in 0.489462 seconds
+2025-05-19 17:17:47,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:17:52,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:17:58,532 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:18:02,174 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:03,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:05,351 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:18:08,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:09,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:20,848 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:18:23,497 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:27,806 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:29,932 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:18:32,981 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:34,173 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:37,209 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:18:39,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:41,768 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:43,172 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:18:44,653 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:46,532 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:48,002 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:18:51,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:53,504 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:18:55,976 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:19:02,386 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:03,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:05,323 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:19:07,627 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:08,912 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:13,854 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:19:16,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:18,067 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:20,959 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:19:23,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:25,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:28,547 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:19:30,878 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:32,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:35,250 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:19:40,385 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:43,990 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:19:54,705 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:20:03,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:04,615 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:06,942 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:20:10,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:11,419 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:14,547 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:20:16,948 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:18,677 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:33,247 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:20:43,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:44,987 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:48,419 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:20:52,253 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:53,731 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:20:55,281 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:21:01,474 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:05,648 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:07,362 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:21:08,865 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:10,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:15,795 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:21:18,203 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:20,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:25,832 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:21:28,968 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:30,246 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:32,727 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:21:34,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:35,669 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:37,406 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:21:41,062 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:42,259 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:46,003 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:21:50,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:52,135 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:54,726 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:21:56,606 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:21:57,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:22:02,309 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:22:04,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:22:06,624 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:22:07,876 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:22:11,716 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:22:14,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:22:16,903 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:22:19,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:22:21,088 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:22:30,713 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:22:36,650 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:22:42,551 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:05,783 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:23:09,707 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:11,169 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:13,706 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:23:16,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:18,405 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:21,044 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:23:24,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:25,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:30,032 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:23:32,185 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:34,447 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:37,329 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:23:39,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:41,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:45,330 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:23:46,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:48,181 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:48,185 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=33061.75 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:23:51,321 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:23:53,414 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:55,492 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:23:56,847 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:23:59,163 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:00,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:01,452 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:24:04,806 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:07,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:08,896 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:24:10,821 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:12,215 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:13,781 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:24:15,970 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:17,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:21,911 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:24:23,556 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:25,159 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:29,600 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:24:33,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:35,335 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:36,773 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:24:39,115 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:41,163 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:43,293 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:24:44,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:46,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:49,097 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:24:51,636 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:53,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:24:56,190 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:24:57,826 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:01,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:02,565 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:25:04,825 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:07,432 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:08,785 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:25:11,338 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:13,215 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:14,503 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:25:15,933 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:18,216 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:23,251 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:25:36,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:38,102 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:39,475 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:25:44,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:46,658 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:48,192 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:25:49,756 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:50,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:52,367 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:25:53,925 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:55,523 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:25:57,310 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:25:59,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:00,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:01,656 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:26:04,206 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:06,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:07,550 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:26:10,753 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:12,566 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:14,583 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:26:17,325 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:22,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:24,017 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:26:25,467 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:27,385 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:31,365 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:26:35,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:37,176 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:40,150 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:26:41,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:43,712 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:47,327 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:26:48,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:50,537 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:56,202 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:26:58,074 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:26:59,759 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:02,969 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:27:04,974 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:06,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:17,117 - tubewise-api-server - ERROR - Error getting transcript: ('Connection broken: IncompleteRead(9614 bytes read, 626 more expected)', IncompleteRead(9614 bytes read, 626 more expected))
+2025-05-19 17:27:17,117 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:27:21,316 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:22,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:25,198 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:27:27,919 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:29,346 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:31,276 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:27:33,450 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:35,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:37,817 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:27:40,184 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:41,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:43,080 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:27:46,267 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:48,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:50,219 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:27:53,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:54,595 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:55,926 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:27:57,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:27:58,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:00,961 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:28:04,678 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:06,166 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:08,424 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:28:11,453 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:13,587 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:15,895 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:28:17,462 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:18,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:24,072 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:28:29,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:31,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:32,609 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:28:34,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:35,393 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:45,705 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:28:47,979 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:49,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:28:58,668 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:29:04,032 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:05,624 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:08,097 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:29:09,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:10,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:12,326 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:29:15,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:16,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:19,247 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:29:22,135 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:24,131 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:27,199 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:29:29,166 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:30,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:31,819 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:29:36,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:37,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:39,100 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:29:40,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:41,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:29:54,324 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:29:59,177 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:30:00,851 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:30:07,251 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:30:15,665 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:30:17,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:30:47,559 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:30:54,738 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:30:56,842 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:05,256 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:31:08,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:10,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:13,385 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:31:16,222 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:17,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:25,592 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:31:31,883 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:33,667 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:36,248 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:31:38,513 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:39,703 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:44,375 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:31:47,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:48,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:50,806 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:31:52,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:54,035 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:55,223 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:31:58,105 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:31:59,785 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:01,463 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:32:04,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:05,996 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:14,534 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:32:20,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:22,752 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:25,744 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:32:27,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:29,845 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:33,594 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:32:35,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:37,451 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:38,742 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:32:42,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:44,925 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:47,861 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:32:50,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:51,390 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:54,497 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:32:56,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:32:58,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:02,120 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:33:05,128 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:07,561 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:09,490 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:33:11,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:14,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:17,334 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:33:19,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:21,915 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:31,719 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:33:34,550 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:37,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:40,190 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:33:42,344 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:44,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:47,194 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:33:50,532 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:53,227 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:54,950 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:33:56,554 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:33:58,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:01,696 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:34:03,380 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:05,057 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:07,739 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:34:09,897 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:11,319 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:12,669 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:34:13,959 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:17,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:19,715 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:34:21,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:23,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:27,353 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:34:29,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:30,704 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:30,706 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=33703.265 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:34:32,301 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:34:36,204 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:38,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:39,677 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:34:44,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:46,745 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:34:57,443 - tubewise-api-server - ERROR - Error getting transcript: ('Connection broken: IncompleteRead(5362 bytes read, 2459 more expected)', IncompleteRead(5362 bytes read, 2459 more expected))
+2025-05-19 17:34:57,443 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:35:01,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:03,630 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:04,783 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:35:06,232 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:07,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:10,506 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:35:12,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:14,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:15,452 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:35:16,938 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:18,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:20,196 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:35:23,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:25,265 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:26,779 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:35:30,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:31,983 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:31,985 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=33765.078 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 17:35:34,252 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:35:36,694 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:38,306 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:35:55,419 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:36:02,238 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:36:04,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:36:41,729 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:36:45,733 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:36:46,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:47:02,115 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:47:10,556 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:47:12,003 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:47:37,182 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:47:41,745 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:47:44,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:47:46,121 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 17:47:47,695 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 17:47:50,563 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:14:02,458 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 18:14:05,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:14:06,601 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:14:13,048 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 18:14:15,986 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:14:17,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:14:19,101 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 18:14:20,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:14:21,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:18:35,309 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 18:18:38,194 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:18:40,153 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:19:16,869 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 18:19:24,036 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:19:25,750 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:19:28,080 - tubewise-api-server - INFO - Creating mock transcript data for video: jtuK0ep7I1U
+2025-05-19 18:19:29,710 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:19:30,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:21:10,167 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:21:10,167 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:21:14,321 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:21:15,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:25:01,616 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:25:01,616 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:25:10,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:25:11,327 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:26:05,918 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:26:08,799 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:26:15,970 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:26:18,674 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:26:34,127 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:26:34,128 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:26:38,682 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:26:41,676 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:26:48,386 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:26:51,037 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:27:12,440 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:27:14,700 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:27:20,323 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:27:23,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:27:30,626 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:27:34,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:29:04,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:29:10,141 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:29:15,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:29:17,852 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:29:23,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:29:26,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:35:02,780 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:35:02,782 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:35:07,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:35:09,007 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:35:15,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:35:19,202 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:35:25,296 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:35:40,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:35:40,709 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=37359.015 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 18:35:46,963 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:35:49,538 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:35:56,909 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:00,306 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:09,676 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:12,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:18,268 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:20,772 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:20,782 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=37412.078 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 18:36:22,565 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:36:22,566 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:36:25,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:26,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:32,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:35,492 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:35,493 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=37420.593 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 18:36:35,493 - asyncio - ERROR - Exception in callback H11Protocol.timeout_keep_alive_handler()
+handle: <TimerHandle when=37420.593 H11Protocol.timeout_keep_alive_handler()>
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\Miniconda\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 383, in timeout_keep_alive_handler
+    self.conn.send(event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 512, in send
+    data_list = self.send_with_data_passthrough(event)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 537, in send_with_data_passthrough
+    self._process_event(self.our_role, event)
+  File "D:\Miniconda\Lib\site-packages\h11\_connection.py", line 272, in _process_event
+    self._cstate.process_event(role, type(event), server_switch_event)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 293, in process_event
+    self._fire_event_triggered_transitions(role, _event_type)
+  File "D:\Miniconda\Lib\site-packages\h11\_state.py", line 311, in _fire_event_triggered_transitions
+    raise LocalProtocolError(
+h11._util.LocalProtocolError: can't handle event type ConnectionClosed when role=SERVER and state=SEND_RESPONSE
+2025-05-19 18:36:41,100 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:36:41,100 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:36:43,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:44,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:49,169 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:36:49,169 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:36:51,233 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:53,119 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:36:58,859 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:01,346 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:04,407 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:37:04,407 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:37:06,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:07,797 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:09,971 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:37:09,971 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:37:11,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:13,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:26,794 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:30,185 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:35,453 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:37,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:44,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:37:46,968 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:38:41,128 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:38:43,115 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:38:44,771 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:38:44,771 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:38:46,730 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:38:48,076 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:38:53,372 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:38:55,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:39:23,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:39:29,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:39:31,729 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:39:31,730 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:39:33,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:39:35,176 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:40:09,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:40:11,446 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:40:18,148 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:40:20,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:40:26,084 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 18:40:26,084 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-19 18:40:30,837 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:40:32,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:48:40,180 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:48:43,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:48:51,327 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:48:55,816 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:49:24,667 - tubewise-api-server - INFO - Received chat message: Which tool is introduced in the video?
+2025-05-19 18:49:35,794 - tubewise-api-server - INFO - OpenAI available: True, API key set: True
+2025-05-19 18:49:35,795 - tubewise-api-server - INFO - Video title: YouTube Video rIobdK40Zj8, Query: Which tool is introduced in the video?
+2025-05-19 18:49:35,795 - tubewise-api-server - INFO - Transcript length: 4373 characters
+2025-05-19 18:49:35,795 - tubewise-api-server - INFO - Using new OpenAI API (>=1.0.0)
+2025-05-19 18:49:37,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 18:49:37,929 - tubewise-api-server - INFO - OpenAI API response received: ChatCompletion(id='chatcmpl-BYwZ7jKjZyb36K7ncrB0HJVYpD8Wt', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='The tool introduced in the video is called GenSpark AI.', refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1747667977, model='gpt-3.5-turbo-0125', object='chat.completion', service_tier='default', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=802, total_tokens=814, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
+2025-05-19 18:49:37,929 - tubewise-api-server - INFO - Generated answer: The tool introduced in the video is called GenSpark AI.
+2025-05-19 18:49:37,929 - tubewise-api-server - INFO - Generated response for video rIobdK40Zj8 based on actual content
+2025-05-19 19:33:31,978 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 19:33:35,201 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 19:33:41,675 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 19:33:44,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 20:15:35,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 20:15:39,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 20:15:53,237 - openai._base_client - INFO - Retrying request to /chat/completions in 0.478238 seconds
+2025-05-19 20:16:00,877 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 20:16:03,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 19:45:47,317 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-20 19:45:47,344 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-20 19:45:47,749 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-20 20:20:51,648 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-20 20:20:51,649 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-20 20:20:51,680 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-21 10:20:06,795 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-21 10:20:06,795 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-21 10:20:07,319 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-21 10:22:12,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-21 10:22:14,707 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-21 11:31:23,809 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-21 11:31:27,209 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-21 13:32:07,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-21 13:32:09,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

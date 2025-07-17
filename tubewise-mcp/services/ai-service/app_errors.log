@@ -1,0 +1,2130 @@
+2025-05-18 16:54:51,636 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-18 16:55:17,173 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-18 16:58:08,498 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-18 16:58:08,778 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-18 16:58:08,780 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-18 16:58:08,781 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-18 16:58:08,782 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-18 17:02:24,739 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-18 17:02:24,739 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-18 17:02:25,259 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-18 17:02:33,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:02:35,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:11:58,279 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:12:00,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:13:54,546 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-18 17:13:54,546 - tubewise-api-server - INFO - Creating mock transcript data for video: EfH-Q7Exjgw
+2025-05-18 17:13:56,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:13:57,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:14:02,296 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:14:04,027 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:18:18,975 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:18:21,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:25:59,703 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 17:26:01,316 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:01:25,300 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:01:27,467 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:02:00,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:02:03,846 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:03:30,276 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:04:03,801 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:34:10,684 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-19 08:34:28,049 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-19 08:36:24,367 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-19 08:36:24,556 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-19 08:36:24,557 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-19 08:36:24,558 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-19 08:36:24,559 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-19 08:37:15,303 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-19 08:37:15,304 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-19 08:37:15,852 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-19 08:37:20,145 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:37:22,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:37:51,306 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:37:52,624 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:37:55,223 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:37:57,007 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:37:57,603 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:37:58,667 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:38:03,011 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:38:05,077 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:38:08,806 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:38:10,866 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:39:37,344 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-19 08:39:37,345 - tubewise-api-server - INFO - Creating mock transcript data for video: -pXNLl81b3U
+2025-05-19 08:39:38,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:39:40,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:39:44,154 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 08:39:47,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-19 11:12:48,931 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-19 11:13:01,249 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-19 11:13:57,464 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-19 11:13:57,614 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-19 11:13:57,618 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-19 11:13:57,620 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-19 11:13:57,620 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-19 17:30:10,297 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-19 17:30:25,753 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-19 17:31:34,361 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-19 17:31:34,515 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-19 17:31:34,515 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-19 17:31:34,527 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-19 17:31:34,527 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-19 18:23:40,529 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-19 18:23:54,035 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-19 18:25:07,185 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-19 18:25:07,316 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-19 18:25:07,316 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-19 18:25:07,318 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-19 18:25:07,318 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 07:44:31,805 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:44:33,609 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:44:33,611 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:44:33,612 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:44:33,662 - root - WARNING - Database modules not found. Using in-memory storage.
+2025-05-20 07:44:33,663 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:44:33,663 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:44:33,697 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:44:33,721 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:44:33,761 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:44:33,763 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:44:33,765 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:44:33,767 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:44:33,771 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:46:59,935 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:46:59,974 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:47:00,582 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:47:00,583 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:47:00,584 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:47:00,585 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:47:00,585 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:47:00,585 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:47:00,589 - root - WARNING - Database modules not found. Using in-memory storage.
+2025-05-20 07:47:00,590 - root - WARNING - Database modules not found. Using in-memory storage.
+2025-05-20 07:47:00,591 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:47:00,592 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:47:00,592 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:47:00,592 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:47:00,593 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:47:00,595 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:47:00,595 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:47:00,597 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:47:00,598 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:47:00,602 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:47:00,602 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:47:00,602 - root - WARNING - Database modules not found. Using in-memory storage.
+2025-05-20 07:47:00,604 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:47:00,605 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:47:00,611 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:47:00,611 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:47:00,612 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:47:00,615 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:47:00,615 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:47:00,616 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:47:00,620 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:47:00,620 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:47:00,623 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:47:00,624 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:47:00,625 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:47:00,628 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:47:00,629 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:47:00,629 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:47:00,633 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:47:00,638 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:47:00,641 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:47:00,641 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:47:00,642 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:47:00,642 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:47:00,646 - root - WARNING - Database modules not found. Using in-memory storage.
+2025-05-20 07:47:00,647 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:47:00,647 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:47:00,651 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:47:00,655 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:47:00,666 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:47:00,672 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:47:00,677 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:47:00,682 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:47:00,687 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:48:29,452 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:48:29,478 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:48:29,511 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:48:29,596 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:48:30,057 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:48:30,059 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:48:30,060 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:48:30,060 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:48:30,060 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:48:30,081 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:48:30,084 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:48:30,084 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:48:30,085 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:48:30,085 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:48:30,092 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:48:30,095 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:48:30,096 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:48:30,097 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:48:30,097 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:48:30,236 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:48:30,237 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:48:30,237 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:48:30,238 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:48:30,238 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:00,403 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:00,424 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:00,472 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:00,513 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:00,943 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:49:00,944 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:00,945 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:00,945 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:00,945 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:00,946 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:00,947 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:00,951 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:00,952 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:00,963 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:49:00,966 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:49:00,968 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:00,969 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:00,969 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:00,969 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:00,970 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:00,970 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:00,972 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:00,975 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:49:00,976 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:00,979 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:00,980 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:00,983 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:49:00,987 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:49:00,991 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:00,997 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:49:01,001 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:01,004 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:49:01,014 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:49:01,014 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:01,016 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:01,017 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:01,017 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:01,018 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:01,018 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:01,021 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:01,025 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:01,032 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:49:01,036 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:01,038 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:49:01,043 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:01,047 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:49:01,087 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:49:01,089 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:01,090 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:01,090 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:01,091 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:01,092 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:01,092 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:01,098 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:01,102 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:01,115 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:49:01,120 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:01,126 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:49:01,131 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:01,147 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:49:14,856 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:15,241 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:49:15,242 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:15,243 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:15,243 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:15,243 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:15,244 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:15,244 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:15,246 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:15,247 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:15,250 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:49:15,254 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:15,256 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:49:15,258 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:15,259 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:49:53,684 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:53,685 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:53,708 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:53,726 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:53,733 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:49:54,296 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:49:54,298 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:54,301 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:54,302 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:54,304 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:54,304 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:54,306 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:54,312 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:54,317 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:54,320 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:49:54,321 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:54,322 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:54,322 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:54,322 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:54,324 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:54,324 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:54,327 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:49:54,330 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:54,331 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:54,332 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:54,336 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:49:54,339 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:49:54,340 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:54,344 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:54,345 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:49:54,347 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:49:54,351 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:54,353 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:49:54,354 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:54,355 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:54,355 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:54,355 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:49:54,355 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:54,356 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:54,356 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:54,364 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:54,367 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:54,372 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:49:54,373 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+ARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:54,373 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:54,373 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:54,374 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:54,374 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:49:54,375 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:49:54,375 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:49:54,375 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:49:54,375 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:54,376 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:54,376 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:49:54,377 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:49:54,378 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:54,380 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:54,381 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:49:54,382 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:49:54,383 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:54,384 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:49:54,386 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:54,390 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:49:54,390 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:49:54,395 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:54,395 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:49:54,398 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:49:54,401 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:54,401 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:49:54,406 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:49:54,406 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:50:37,678 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:50:37,681 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:50:37,683 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:50:37,716 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:50:37,746 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:50:38,277 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:50:38,278 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:50:38,279 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:50:38,279 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:50:38,280 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:50:38,280 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:50:38,281 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:50:38,281 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:50:38,283 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:50:38,283 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:50:38,283 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:50:38,283 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:50:38,284 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:50:38,284 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:50:38,284 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:50:38,285 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:50:38,285 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:50:38,286 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:50:38,286 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:50:38,286 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:50:38,288 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:50:38,288 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:50:38,288 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:50:38,288 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:50:38,290 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:50:38,291 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:50:38,293 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:50:38,294 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:50:38,295 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:50:38,295 - root - WARNING - Agent modules mocked for testing comparison API.
+ endpoints will not be available.
+2025-05-20 07:50:38,295 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:50:38,295 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:50:38,297 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:50:38,297 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:50:38,297 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:50:38,299 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:50:38,300 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:50:38,300 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:50:38,300 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:50:38,303 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:50:38,303 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:50:38,303 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:50:38,303 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:50:38,307 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:50:38,307 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:50:38,307 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:50:38,310 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:50:38,311 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:50:38,311 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:50:38,311 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:50:38,313 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:50:38,315 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:50:38,316 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:50:38,321 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:50:38,326 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:50:38,340 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:50:38,342 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:50:38,342 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:50:38,342 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:50:38,342 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:50:38,345 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:50:38,345 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:50:38,349 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:50:38,352 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:50:38,360 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:50:38,364 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:50:38,369 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:50:38,373 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:50:38,379 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:51:34,510 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:51:34,578 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:51:34,606 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:51:34,673 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:51:34,681 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:51:35,250 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:51:35,252 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:51:35,253 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:51:35,253 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:51:35,253 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:51:35,254 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:51:35,257 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:51:35,260 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:51:35,263 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:51:35,269 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:51:35,273 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:51:35,276 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:51:35,280 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:51:35,283 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:51:35,302 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:51:35,302 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:51:35,303 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:51:35,303 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:51:35,303 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:51:35,305 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:51:35,305 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:51:35,309 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:51:35,312 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:51:35,319 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:51:35,321 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:51:35,323 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:51:35,323 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:51:35,323 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:51:35,323 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:51:35,324 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:51:35,325 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:51:35,325 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:51:35,328 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:51:35,330 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:51:35,332 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:51:35,333 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:51:35,336 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:51:35,341 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:51:35,348 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:51:35,348 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:51:35,348 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:51:35,349 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:51:35,349 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:51:35,350 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:51:35,350 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:51:35,350 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:51:35,350 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:51:35,350 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:51:35,350 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:51:35,352 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:51:35,352 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:51:35,352 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:51:35,352 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:51:35,354 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:51:35,357 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:51:35,358 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:51:35,359 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:51:35,362 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:51:35,363 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:51:35,366 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:51:35,370 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:51:35,373 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:51:35,378 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:51:35,379 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:51:35,382 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:51:35,384 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:51:35,387 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:51:35,390 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:51:35,392 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:51:35,394 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:57:49,185 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:57:49,187 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:57:49,187 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:57:49,192 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:57:49,204 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:57:50,011 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:57:50,011 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:57:50,011 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:57:50,013 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:57:50,013 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:57:50,013 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:57:50,013 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:57:50,013 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:57:50,013 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:57:50,013 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:57:50,013 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:57:50,013 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:57:50,013 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:57:50,013 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:57:50,013 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:57:50,013 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:57:50,013 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:57:50,013 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:57:50,013 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:57:50,013 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:57:50,013 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:57:50,015 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:57:50,016 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:57:50,016 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:57:50,016 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:57:50,016 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:57:50,016 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:57:50,016 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:57:50,016 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:57:50,016 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:57:50,016 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:57:50,017 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:57:50,017 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:57:50,018 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:57:50,019 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:57:50,019 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:57:50,019 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:57:50,021 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:57:50,023 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:57:50,023 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:57:50,023 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:57:50,028 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:57:50,031 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:57:50,030 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:57:50,031 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:57:50,031 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:57:50,032 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:57:50,034 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:57:50,034 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:57:50,034 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:57:50,034 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:57:50,035 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:57:50,039 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:57:50,039 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:57:50,039 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:57:50,043 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:57:50,043 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:57:50,043 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:57:50,043 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:57:50,048 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:57:50,048 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:57:50,048 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:25,488 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:25,544 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:25,549 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:25,606 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:25,689 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:26,057 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:26,059 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:26,060 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:26,060 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:26,061 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:26,062 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:26,063 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:26,067 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:26,073 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:26,083 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:26,088 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:26,092 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:58:26,097 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:58:26,100 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:26,133 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:26,136 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:26,137 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:26,138 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:26,141 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:26,142 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:26,143 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:26,143 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:26,144 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:26,145 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:26,146 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:26,146 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:26,148 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:26,148 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:26,150 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:26,152 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:26,157 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:26,162 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:26,165 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:26,171 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:26,174 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:26,177 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:26,177 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:58:26,182 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+ be available.
+2025-05-20 07:58:26,186 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:58:26,186 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:26,192 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:26,279 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:26,281 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:26,282 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:26,282 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:26,283 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:26,284 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:26,285 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:26,289 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:26,292 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:26,301 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:26,306 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:26,312 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:58:26,319 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:58:26,325 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:26,449 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:26,451 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:26,451 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:26,452 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:26,453 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:26,454 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:26,455 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:26,459 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:26,463 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:26,473 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:26,477 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:26,483 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:58:26,489 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:58:26,494 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:49,671 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:49,676 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:49,696 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:49,728 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:49,760 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:58:50,478 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:50,484 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:50,498 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:50,502 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:50,510 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:50,519 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:50,530 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:50,543 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:50,547 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:50,562 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:50,573 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:50,580 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:58:50,587 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:50,589 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:58:50,591 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:50,592 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:50,593 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:50,593 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:50,594 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:50,595 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:50,595 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:50,601 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:50,614 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:50,632 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:50,640 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:50,649 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:58:50,658 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:50,661 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:50,661 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:50,661 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:58:50,663 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:50,663 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:50,664 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:50,664 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:50,666 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:50,669 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:50,676 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:50,685 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:50,686 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:50,691 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:50,692 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:50,692 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:50,693 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:50,693 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:50,694 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:50,694 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:50,696 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:58:50,700 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:50,701 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:58:50,703 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:50,708 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:50,714 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:50,718 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:58:50,718 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:50,718 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:58:50,722 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:58:50,723 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:58:50,723 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:58:50,724 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:58:50,726 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:58:50,726 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:58:50,731 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:58:50,733 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:58:50,737 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:58:50,737 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:58:50,748 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:58:50,753 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:58:50,759 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:58:50,765 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:58:50,771 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:29,059 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:29,166 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:29,247 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:29,255 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:29,298 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:29,524 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:29,526 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:29,526 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:29,527 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:29,527 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:29,528 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:29,528 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:29,533 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:29,536 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:29,541 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:29,545 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:29,549 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:29,552 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:29,554 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:29,646 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:29,646 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:29,646 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:29,646 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:29,646 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:29,646 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:29,650 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:29,653 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:29,654 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:29,662 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:29,666 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:29,670 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:29,676 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:29,678 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:29,757 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:29,759 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:29,759 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:29,759 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:29,759 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:29,761 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:29,761 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:29,763 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:29,766 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:29,773 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:29,776 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:29,780 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:29,783 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:29,785 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:29,788 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:29,790 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:29,790 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:29,792 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:29,793 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:29,794 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:29,795 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:29,798 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:29,804 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:29,812 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:29,815 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:29,819 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:29,823 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:29,827 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:29,845 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:29,847 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:29,847 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:29,847 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:29,850 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:29,852 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:29,852 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:29,856 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:29,861 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:29,869 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:29,874 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:29,879 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:29,885 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:29,889 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:56,382 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:56,382 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:56,408 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:56,446 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:56,514 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 07:59:56,869 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:56,869 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:56,869 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:56,869 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:56,869 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:56,869 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:56,869 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:56,869 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:56,869 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:56,869 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:56,871 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:56,871 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:56,871 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:56,872 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:56,874 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:56,874 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:56,877 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:56,877 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:56,882 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:56,884 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:56,887 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:56,887 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:56,890 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:56,890 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:56,893 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:56,893 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:56,893 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:56,896 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:56,897 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:56,897 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:56,897 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:56,897 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:56,897 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:56,897 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:56,897 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:56,903 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:56,905 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:56,914 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:56,918 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:56,922 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:56,924 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:56,928 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:56,952 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:56,954 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:56,954 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:56,954 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:56,954 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:56,956 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:56,956 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:56,960 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:56,961 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:56,969 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:56,971 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:56,974 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:56,978 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:56,982 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:57,021 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 07:59:57,022 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 07:59:57,022 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 07:59:57,022 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 07:59:57,022 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 07:59:57,022 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 07:59:57,023 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 07:59:57,024 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 07:59:57,026 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 07:59:57,027 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 07:59:57,027 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 07:59:57,027 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 07:59:57,027 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 07:59:57,027 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 07:59:57,027 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 07:59:57,029 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 07:59:57,041 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 07:59:57,043 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 07:59:57,043 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 07:59:57,044 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 07:59:57,044 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 07:59:57,045 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 07:59:57,046 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 07:59:57,050 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 07:59:57,053 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 07:59:57,061 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 07:59:57,068 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 07:59:57,071 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 07:59:57,076 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 07:59:57,081 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 07:59:57,115 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 07:59:57,116 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 07:59:57,118 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 07:59:57,119 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 08:00:14,396 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:00:14,769 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:00:14,770 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:00:14,770 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:00:14,770 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:00:14,770 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:00:14,771 - root - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 08:00:14,771 - root - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 08:00:14,773 - root - WARNING - Auth router not found. Authentication endpoints will not be available.
+2025-05-20 08:00:14,775 - root - WARNING - Subscription router not found. Subscription endpoints will not be available.
+2025-05-20 08:00:14,777 - root - WARNING - Background tasks router not found. Background task endpoints will not be available.
+2025-05-20 08:00:14,780 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 08:00:14,782 - root - WARNING - Fact-checking router not found. Fact-checking endpoints will not be available.
+2025-05-20 08:00:14,785 - root - WARNING - Admin router not found. Admin endpoints will not be available.
+2025-05-20 08:00:14,788 - root - WARNING - Error monitoring router not found. Error monitoring endpoints will not be available.
+2025-05-20 08:00:14,810 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 08:00:14,810 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 08:00:14,811 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 08:00:14,814 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 08:13:08,346 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 08:13:08,356 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 08:13:30,121 - tubewise-api-server - WARNING - python-dotenv not found. Environment variables will not be loaded from .env file.
+2025-05-20 08:13:30,123 - tubewise-api-server - WARNING - No OpenAI API key found. Using fallback summarization methods.
+2025-05-20 08:13:30,123 - tubewise-api-server - WARNING - Error determining OpenAI version: No module named 'pkg_resources'. Assuming older version.
+2025-05-20 08:13:30,125 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-20 08:13:32,077 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-20 08:13:32,078 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-20 08:13:32,268 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 08:13:53,573 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-20 08:13:53,573 - tubewise-api-server - INFO - Creating mock transcript data for video: wmQVdzBRnN4
+2025-05-20 08:13:53,584 - error_handler - WARNING - WARNING: User not found
+2025-05-20 08:14:09,190 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-20 08:14:09,190 - tubewise-api-server - INFO - Creating mock transcript data for video: wmQVdzBRnN4
+2025-05-20 08:14:09,200 - error_handler - WARNING - WARNING: User not found
+2025-05-20 08:14:41,211 - error_handler - WARNING - WARNING: User not found
+2025-05-20 08:17:49,975 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:17:49,979 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:17:49,989 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:17:49,994 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:17:50,004 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:17:50,017 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:17:50,642 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:17:50,642 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:17:50,642 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:17:50,642 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:17:50,644 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:17:50,644 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:17:50,644 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:17:50,644 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:17:50,645 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:17:50,644 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:17:50,645 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:17:50,645 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:17:50,645 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:17:50,645 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:17:50,645 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:17:50,645 - root - WARNING - Database modules mocked for testing comparison API. Using i2025-05-20 08:17:50,645 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:17:50,645 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:17:50,645 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:17:50,645 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:17:50,645 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:17:50,645 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:17:50,645 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:17:50,646 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:17:50,646 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:18:06,053 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:18:06,087 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:18:06,108 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:18:06,114 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:18:06,116 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:18:06,184 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:18:06,715 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:18:06,716 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:18:06,716 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:18:06,716 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:18:06,716 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:18:06,752 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:18:06,752 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:18:06,752 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:18:06,754 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:18:06,754 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:18:06,754 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:18:06,754 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:18:06,754 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:18:06,756 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:18:06,756 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:18:06,762 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:18:06,763 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:18:06,764 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:18:06,764 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:18:06,764 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:18:06,780 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:18:06,780 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:18:06,780 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:18:06,780 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:18:06,782 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:18:06,846 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:18:06,847 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:18:06,848 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:18:06,848 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:18:06,848 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:42:35,084 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:42:35,218 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:42:35,133 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:42:35,272 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:42:35,301 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:42:35,959 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:42:35,959 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:42:35,961 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:42:35,961 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:42:35,961 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:42:35,961 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:42:35,962 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:42:35,962 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:42:35,962 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:42:35,962 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:42:35,963 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:42:35,965 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:42:35,965 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:42:35,966 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:42:35,966 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:42:35,967 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:42:35,967 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:42:35,967 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:42:35,968 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:42:35,969 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:42:35,982 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:42:35,983 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:42:35,983 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:42:35,984 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:42:35,984 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:42:36,013 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:42:36,153 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:42:36,153 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:42:36,155 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:42:36,155 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:07,166 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:07,167 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:07,194 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:07,296 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:07,300 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:07,391 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:07,831 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:07,832 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:07,832 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:07,834 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:07,834 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:07,836 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:07,838 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:07,838 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:07,839 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:07,839 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:07,846 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:07,848 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:07,848 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:07,848 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:07,849 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:07,926 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:07,927 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:07,927 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:07,927 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:07,927 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:07,936 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:07,939 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:07,940 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:07,940 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:07,940 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:08,039 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:08,040 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:08,040 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:08,040 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:08,041 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:56,272 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:56,301 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:56,307 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:56,323 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:56,331 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:56,350 - root - WARNING - Usage limits module not found. No usage limits will be applied.
+2025-05-20 08:43:56,999 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:57,000 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:57,000 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:57,001 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:57,001 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:57,006 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:57,008 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:57,009 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:57,010 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:57,011 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:57,028 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:57,028 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:57,029 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:57,029 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:57,030 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:57,030 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:57,030 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:57,030 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:57,030 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:57,032 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:57,034 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:57,035 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:57,036 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:57,036 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 08:43:57,070 - root - WARNING - Cache service not found. No caching will be used.
+2025-05-20 08:43:57,072 - root - WARNING - Sumy modules not found. Fallback summarization will not be available.
+2025-05-20 08:43:57,073 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 08:43:57,073 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 08:43:57,074 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 09:04:03,120 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 09:04:15,652 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 09:04:20,111 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 09:04:20,113 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 09:04:20,113 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 09:04:20,147 - root - INFO - Environment variables loaded from .env file.
+2025-05-20 09:04:20,149 - root - INFO - OpenAI API key loaded successfully.
+2025-05-20 09:04:20,149 - root - INFO - YouTube API key loaded successfully.
+2025-05-20 09:04:25,368 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 09:04:25,499 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 09:04:25,499 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 09:04:25,500 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 09:04:25,500 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 09:42:20,257 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 09:42:21,191 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 09:42:21,772 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 09:42:21,773 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 09:42:21,773 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 09:42:21,778 - root - INFO - Environment variables loaded from .env file.
+2025-05-20 09:42:21,778 - root - INFO - OpenAI API key loaded successfully.
+2025-05-20 09:42:21,778 - root - INFO - YouTube API key loaded successfully.
+2025-05-20 09:42:23,155 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 09:42:23,216 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 09:42:23,216 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 09:42:23,217 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 09:42:23,217 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 09:42:55,038 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\error_handler.py", line 357, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 84, in call_next
+    raise app_exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 68, in app
+    response = await run_in_threadpool(func, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: compare_videos() takes 0 positional arguments but 1 was given
+2025-05-20 09:43:45,466 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 09:43:46,495 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 09:43:47,114 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 09:43:47,114 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 09:43:47,115 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 09:43:47,122 - root - INFO - Environment variables loaded from .env file.
+2025-05-20 09:43:47,122 - root - INFO - OpenAI API key loaded successfully.
+2025-05-20 09:43:47,122 - root - INFO - YouTube API key loaded successfully.
+2025-05-20 09:43:48,675 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 09:43:48,727 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 09:43:48,728 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 09:43:48,729 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 09:43:48,729 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 09:44:13,496 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\error_handler.py", line 357, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 84, in call_next
+    raise app_exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 68, in app
+    response = await run_in_threadpool(func, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: compare_videos() takes 0 positional arguments but 1 was given
+2025-05-20 09:49:04,779 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 09:49:05,596 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 09:49:06,108 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 09:49:06,108 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 09:49:06,109 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 09:49:06,115 - root - INFO - Environment variables loaded from .env file.
+2025-05-20 09:49:06,115 - root - INFO - OpenAI API key loaded successfully.
+2025-05-20 09:49:06,116 - root - INFO - YouTube API key loaded successfully.
+2025-05-20 09:49:07,401 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 09:49:07,449 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 09:49:07,453 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 09:49:07,454 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 09:49:07,454 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 09:54:29,246 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\error_handler.py", line 357, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 84, in call_next
+    raise app_exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 68, in app
+    response = await run_in_threadpool(func, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: compare_videos() takes 0 positional arguments but 1 was given
+2025-05-20 09:59:57,956 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 09:59:58,852 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 09:59:59,391 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 09:59:59,391 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 09:59:59,391 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 09:59:59,396 - root - INFO - Environment variables loaded from .env file.
+2025-05-20 09:59:59,396 - root - INFO - OpenAI API key loaded successfully.
+2025-05-20 09:59:59,396 - root - INFO - YouTube API key loaded successfully.
+2025-05-20 10:00:00,696 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 10:00:00,753 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 10:00:00,753 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 10:00:00,754 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 10:00:00,754 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 10:00:33,892 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\error_handler.py", line 357, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 84, in call_next
+    raise app_exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 68, in app
+    response = await run_in_threadpool(func, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_api() takes 0 positional arguments but 1 was given
+2025-05-20 10:02:13,346 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 10:02:14,208 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 10:02:14,779 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 10:02:14,779 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 10:02:14,780 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 10:02:14,787 - root - INFO - Environment variables loaded from .env file.
+2025-05-20 10:02:14,787 - root - INFO - OpenAI API key loaded successfully.
+2025-05-20 10:02:14,788 - root - INFO - YouTube API key loaded successfully.
+2025-05-20 10:02:16,123 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 10:02:16,177 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 10:02:16,178 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 10:02:16,179 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 10:02:16,179 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 10:02:39,914 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\error_handler.py", line 357, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 84, in call_next
+    raise app_exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 68, in app
+    response = await run_in_threadpool(func, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_api() takes 0 positional arguments but 1 was given
+2025-05-20 10:19:43,347 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 10:19:44,261 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 10:19:44,858 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 10:19:44,858 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 10:19:44,859 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 10:19:44,864 - root - INFO - Environment variables loaded from .env file.
+2025-05-20 10:19:44,864 - root - INFO - OpenAI API key loaded successfully.
+2025-05-20 10:19:44,864 - root - INFO - YouTube API key loaded successfully.
+2025-05-20 10:19:46,311 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 10:19:46,364 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 10:19:46,364 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 10:19:46,366 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 10:19:46,366 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 10:21:03,599 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\error_handler.py", line 357, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 84, in call_next
+    raise app_exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 68, in app
+    response = await run_in_threadpool(func, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: compare_videos() takes 0 positional arguments but 1 was given
+2025-05-20 10:34:27,906 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 10:34:29,098 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 10:34:29,860 - root - WARNING - Transformer summarizer not found. Using fallback methods.
+2025-05-20 10:34:29,861 - root - WARNING - Agent modules mocked for testing comparison API.
+2025-05-20 10:34:29,861 - root - WARNING - Database modules mocked for testing comparison API. Using in-memory storage.
+2025-05-20 10:34:29,869 - root - INFO - Environment variables loaded from .env file.
+2025-05-20 10:34:29,869 - root - INFO - OpenAI API key loaded successfully.
+2025-05-20 10:34:29,871 - root - INFO - YouTube API key loaded successfully.
+2025-05-20 10:34:31,673 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 10:34:31,746 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 10:34:31,746 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 10:34:31,748 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 10:34:31,749 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 10:35:04,019 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 98, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 93, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\error_handler.py", line 357, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 84, in call_next
+    raise app_exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Miniconda\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "D:\Miniconda\Lib\site-packages\starlette\routing.py", line 68, in app
+    response = await run_in_threadpool(func, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "D:\Miniconda\Lib\site-packages\anyio\_backends\_asyncio.py", line 807, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: simple_test_api() takes 0 positional arguments but 1 was given
+2025-05-20 10:42:04,653 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 10:42:05,561 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 10:42:51,598 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 10:42:51,682 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 10:42:51,682 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 10:42:51,684 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 10:42:51,684 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 10:55:04,120 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-20 10:55:04,122 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-20 10:55:04,628 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-20 10:55:16,083 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:55:18,751 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:55:38,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:55:41,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:55:46,142 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:55:47,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:55:48,250 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:55:48,251 - openai._base_client - INFO - Retrying request to /chat/completions in 0.390203 seconds
+2025-05-20 10:55:48,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:55:50,366 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:56:04,574 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:56:06,877 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:56:13,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:56:14,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:23:26,923 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 11:23:33,099 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 11:23:54,861 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 11:23:55,004 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 11:23:55,004 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 11:23:55,005 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 11:23:55,005 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 11:25:33,215 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 11:25:33,222 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 11:25:55,482 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-20 11:25:55,482 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-20 11:25:55,842 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-20 11:26:00,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:26:01,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:26:03,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:26:03,622 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:26:03,641 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 11:50:56,153 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 11:51:02,847 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 11:51:32,982 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 11:51:33,102 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 11:51:33,102 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 11:51:33,104 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 11:51:33,104 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 11:54:47,590 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 11:54:47,597 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 11:55:00,561 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-20 11:55:00,562 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-20 11:55:00,830 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-20 11:55:04,678 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-20 11:55:04,678 - tubewise-api-server - INFO - Creating mock transcript data for video: wmQVdzBRnN4
+2025-05-20 11:55:08,647 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:55:08,785 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:55:09,863 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:55:12,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:55:12,548 - root - INFO - Using provided video_ids
+2025-05-20 11:55:12,790 - root - ERROR - Error processing video rIobdK40Zj8: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "rIobdK40Zj8"
+LINE 3: WHERE video_summaries.video_id = 'rIobdK40Zj8' 
+                                         ^
+
+[SQL: SELECT video_summaries.id AS video_summaries_id, video_summaries.video_id AS video_summaries_video_id, video_summaries.summary AS video_summaries_summary, video_summaries.created_at AS video_summaries_created_at, video_summaries.updated_at AS video_summaries_updated_at 
+FROM video_summaries 
+WHERE video_summaries.video_id = %(video_id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'video_id_1': 'rIobdK40Zj8', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-05-20 11:55:12,790 - root - ERROR - Error in video comparison: 
+2025-05-20 11:55:41,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:55:46,436 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:55:53,841 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 11:55:53,847 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 11:56:10,105 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:56:13,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:56:20,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:56:22,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 11:56:22,770 - root - INFO - Using provided video_ids
+2025-05-20 11:56:22,773 - root - ERROR - Error processing video wmQVdzBRnN4: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type integer: "wmQVdzBRnN4"
+LINE 3: WHERE video_summaries.video_id = 'wmQVdzBRnN4' 
+                                         ^
+
+[SQL: SELECT video_summaries.id AS video_summaries_id, video_summaries.video_id AS video_summaries_video_id, video_summaries.summary AS video_summaries_summary, video_summaries.created_at AS video_summaries_created_at, video_summaries.updated_at AS video_summaries_updated_at 
+FROM video_summaries 
+WHERE video_summaries.video_id = %(video_id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'video_id_1': 'wmQVdzBRnN4', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-05-20 11:56:22,773 - root - ERROR - Error in video comparison: 
+2025-05-20 13:05:01,821 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 13:05:10,432 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 13:05:52,887 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 13:05:53,007 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 13:05:53,007 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 13:05:53,010 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 13:05:53,010 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 13:13:49,894 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 13:13:49,903 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 13:13:59,412 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-20 13:13:59,412 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-20 13:13:59,696 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-20 13:14:04,175 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-20 13:14:04,175 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-20 13:14:07,740 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 13:14:08,744 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 13:14:09,033 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 13:14:10,527 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 13:14:10,529 - openai._base_client - INFO - Retrying request to /chat/completions in 0.416986 seconds
+2025-05-20 13:14:12,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 13:14:12,919 - root - INFO - Getting summaries for videos: ['wmQVdzBRnN4', 'rIobdK40Zj8']
+2025-05-20 13:14:12,920 - root - ERROR - Error processing video wmQVdzBRnN4: name 'build_youtube_service' is not defined
+2025-05-20 13:23:37,496 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 13:23:38,351 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 13:23:45,045 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 13:23:45,101 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 13:23:45,101 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 13:23:45,102 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 13:23:45,102 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 13:25:42,037 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 13:25:42,044 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 13:32:21,874 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 13:32:22,749 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 13:32:29,112 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 13:32:29,166 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 13:32:29,167 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 13:32:29,167 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 13:32:29,167 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 13:33:39,400 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:39,626 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:39,718 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:47,312 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:47,319 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:48,684 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:48,995 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:50,392 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:50,695 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:51,164 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:51,473 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:51,661 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:51,971 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:52,118 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:52,420 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:52,501 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:52,814 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:52,822 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:52,984 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:53,125 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:53,133 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:53,296 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:33:53,304 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:34:00,064 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:34:00,070 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:34:00,079 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:34:16,361 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:34:16,368 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:35:46,600 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 13:35:47,478 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 13:35:53,780 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 13:35:53,835 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 13:35:53,837 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 13:35:53,838 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 13:35:53,838 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 13:42:31,384 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    async def add_request_id(request: Request, call_next):
+                         ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:42:31,397 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    async def add_request_id(request: Request, call_next):
+                         ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:42:41,720 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    async def add_request_id(request: Request, call_next):
+                         ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:42:41,728 - error_handler - CRITICAL - CRITICAL ERROR: An unexpected error occurred
+Traceback (most recent call last):
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Miniconda\Lib\site-packages\starlette\middleware\base.py", line 108, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Parscoders\556750\3\tubewise-mcp\services\ai-service\simple_app.py", line 279, in add_request_id
+    async def add_request_id(request: Request, call_next):
+                         ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'
+2025-05-20 13:47:21,236 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 13:47:28,467 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 13:47:52,042 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 13:47:52,163 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 13:47:52,163 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 13:47:52,164 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 13:47:52,165 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 14:14:17,721 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 14:14:29,650 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 14:15:21,189 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 14:24:03,468 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 14:24:11,196 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 14:24:43,254 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 14:24:43,332 - root - ERROR - Error initializing VideoComparisonService: name 'os' is not defined
+2025-05-20 14:24:43,379 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 14:24:43,380 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 14:24:43,381 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 14:24:43,381 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 14:33:55,626 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 14:34:02,290 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 14:34:25,867 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 14:34:25,936 - root - INFO - ComparisonAgent initialized with VideoComparisonService
+2025-05-20 14:34:25,987 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 14:34:25,988 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 14:34:25,988 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 14:34:25,990 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 14:38:05,388 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 14:38:05,413 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 14:38:18,989 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-20 14:38:18,991 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-20 14:38:19,429 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-20 14:38:36,945 - tubewise-api-server - ERROR - Error getting transcript: no element found: line 1, column 0
+2025-05-20 14:38:36,959 - tubewise-api-server - INFO - Creating mock transcript data for video: rIobdK40Zj8
+2025-05-20 14:38:40,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:38:41,666 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:38:42,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:38:43,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:38:45,839 - root - INFO - Getting summaries for videos: ['rIobdK40Zj8', 'wmQVdzBRnN4']
+2025-05-20 14:38:45,839 - root - ERROR - Error processing video rIobdK40Zj8: YOUTUBE_API_KEY environment variable not set
+2025-05-20 14:43:14,163 - cache_service - WARNING - Could not connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using fallback in-memory cache.
+2025-05-20 14:43:15,122 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2025-05-20 14:43:22,913 - root - WARNING - Email router not found. Email endpoints will not be available.
+2025-05-20 14:43:22,968 - root - INFO - ComparisonAgent initialized with VideoComparisonService
+2025-05-20 14:43:22,977 - tubewise-api-compat - INFO - Frontend compatibility module loaded
+2025-05-20 14:43:22,978 - tubewise-api - INFO - Frontend compatibility module imported successfully
+2025-05-20 14:43:22,979 - tubewise-api-compat - INFO - Frontend compatibility routes registered with the main app
+2025-05-20 14:43:22,979 - tubewise-api - INFO - Frontend compatibility routes registered successfully
+2025-05-20 14:44:48,767 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 14:44:48,774 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 14:44:48,928 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 14:46:14,469 - tubewise-api-server - INFO - Using OpenAI version: 1.68.2
+2025-05-20 14:46:14,469 - tubewise-api-server - INFO - Using newer OpenAI API version (>=1.0.0)
+2025-05-20 14:46:14,747 - tubewise-api-server - INFO - Static files directory mounted successfully
+2025-05-20 14:46:23,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:46:26,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:46:29,538 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 14:46:29,547 - error_handler - WARNING - WARNING: Validation error
+2025-05-20 14:47:01,009 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:47:02,779 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:47:03,211 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:47:05,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 14:47:05,354 - root - INFO - Getting summaries for videos: ['rIobdK40Zj8', 'wmQVdzBRnN4']
+2025-05-20 14:47:05,356 - root - ERROR - Error processing video rIobdK40Zj8: YOUTUBE_API_KEY environment variable not set

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TubeWise Key Points Frontend Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #6B46C1;
+            border-bottom: 2px solid #E2E8F0;
+            padding-bottom: 10px;
+        }
+        .test-section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+        }
+        .test-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2D3748;
+        }
+        .test-results {
+            background-color: #F7FAFC;
+            padding: 10px;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+        .timestamp {
+            background-color: #805AD5;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        .point {
+            color: #4A5568;
+        }
+        #key-points-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        #key-points-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .success {
+            color: #38A169;
+        }
+        .error {
+            color: #E53E3E;
+        }
+        #console-output {
+            height: 300px;
+            overflow-y: auto;
+            background-color: #2D3748;
+            color: #CBD5E0;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>TubeWise Key Points Frontend Test</h1>
+    
+    <div class="test-section">
+        <div class="test-title">Key Points Display Test</div>
+        <div id="key-points-container">
+            <h2>Key Points with Timestamps</h2>
+            <ul id="key-points-list"></ul>
+            <p id="no-key-points-message" style="display: none;">No key points available</p>
+        </div>
+        <div class="test-results" id="test-results">Running tests...</div>
+    </div>
+    
+    <div class="test-section">
+        <div class="test-title">Console Output</div>
+        <div id="console-output"></div>
+    </div>
+    
+    <script>
+        // Override console.log to display in our custom console
+        const originalConsoleLog = console.log;
+        const originalConsoleError = console.error;
+        const originalConsoleAssert = console.assert;
+        
+        console.log = function() {
+            const args = Array.from(arguments);
+            const message = args.join(' ');
+            
+            // Display in our custom console
+            const consoleOutput = document.getElementById('console-output');
+            consoleOutput.innerHTML += `<div>${message}</div>`;
+            consoleOutput.scrollTop = consoleOutput.scrollHeight;
+            
+            // Also log to the actual console
+            originalConsoleLog.apply(console, arguments);
+        };
+        
+        console.error = function() {
+            const args = Array.from(arguments);
+            const message = args.join(' ');
+            
+            // Display in our custom console with error styling
+            const consoleOutput = document.getElementById('console-output');
+            consoleOutput.innerHTML += `<div class="error">${message}</div>`;
+            consoleOutput.scrollTop = consoleOutput.scrollHeight;
+            
+            // Also log to the actual console
+            originalConsoleError.apply(console, arguments);
+        };
+        
+        console.assert = function(condition, ...args) {
+            if (!condition) {
+                const message = args.join(' ');
+                
+                // Display in our custom console with error styling
+                const consoleOutput = document.getElementById('console-output');
+                consoleOutput.innerHTML += `<div class="error">Assertion failed: ${message}</div>`;
+                consoleOutput.scrollTop = consoleOutput.scrollHeight;
+                
+                // Also log to the actual console
+                originalConsoleAssert.apply(console, arguments);
+            }
+        };
+        
+        // Mock data for testing
+        const mockSummary = {
+            videoId: "dQw4w9WgXcQ",
+            title: "Rick Astley - Never Gonna Give You Up (Official Music Video)",
+            summary: "The text is a song called 'Never Gonna Give You Up' by Rick Astley...",
+            keyPoints: [
+                { timestamp: "0:10", point: "The video starts with background music playing." },
+                { timestamp: "1:30", point: "The lyrics mention a commitment and strong feelings towards someone." },
+                { timestamp: "2:45", point: "The lyrics express a promise to never give up, let down, or hurt the person." }
+            ]
+        };
+
+        // Helper function to display key points
+        function displayKeyPoints(keyPoints) {
+            const keyPointsList = document.getElementById("key-points-list");
+            const noKeyPointsMessage = document.getElementById("no-key-points-message");
+            
+            // Clear previous content
+            keyPointsList.innerHTML = "";
+            
+            if (keyPoints && keyPoints.length > 0) {
+                // Display key points
+                keyPoints.forEach(point => {
+                    const listItem = document.createElement("li");
+                    
+                    const timestampSpan = document.createElement("span");
+                    timestampSpan.className = "timestamp";
+                    timestampSpan.textContent = point.timestamp;
+                    
+                    const pointSpan = document.createElement("span");
+                    pointSpan.className = "point";
+                    pointSpan.textContent = point.point;
+                    
+                    listItem.appendChild(timestampSpan);
+                    listItem.appendChild(pointSpan);
+                    
+                    keyPointsList.appendChild(listItem);
+                });
+                
+                // Hide the "No key points available" message
+                noKeyPointsMessage.style.display = "none";
+            } else {
+                // Show the "No key points available" message
+                noKeyPointsMessage.style.display = "block";
+            }
+        }
+
+        // Test functions
+        function testKeyPointsDisplay() {
+            console.log("Testing Key Points Display...");
+            
+            // Test case 1: Display key points when available
+            console.log("Test Case 1: Display key points when available");
+            displayKeyPoints(mockSummary.keyPoints);
+            
+            // Check if key points are displayed correctly
+            const keyPointsList = document.getElementById("key-points-list");
+            const listItems = keyPointsList.querySelectorAll("li");
+            console.log(`Number of key points displayed: ${listItems.length}`);
+            
+            let testsPassed = true;
+            
+            if (listItems.length !== mockSummary.keyPoints.length) {
+                console.error(`Expected ${mockSummary.keyPoints.length} key points, but got ${listItems.length}`);
+                testsPassed = false;
+            }
+            
+            // Check if the content of each key point is correct
+            listItems.forEach((item, index) => {
+                const timestamp = item.querySelector(".timestamp").textContent;
+                const point = item.querySelector(".point").textContent;
+                
+                console.log(`Key Point ${index + 1}:`);
+                console.log(`  Timestamp: ${timestamp}`);
+                console.log(`  Point: ${point}`);
+                
+                if (timestamp !== mockSummary.keyPoints[index].timestamp) {
+                    console.error(`Expected timestamp ${mockSummary.keyPoints[index].timestamp}, but got ${timestamp}`);
+                    testsPassed = false;
+                }
+                
+                if (point !== mockSummary.keyPoints[index].point) {
+                    console.error(`Expected point "${mockSummary.keyPoints[index].point}", but got "${point}"`);
+                    testsPassed = false;
+                }
+            });
+            
+            // Test case 2: Display message when no key points are available
+            console.log("\nTest Case 2: Display message when no key points are available");
+            displayKeyPoints([]);
+            
+            // Check if the "No key points available" message is displayed
+            const noKeyPointsMessage = document.getElementById("no-key-points-message");
+            console.log(`No key points message display: ${noKeyPointsMessage.style.display}`);
+            
+            if (noKeyPointsMessage.style.display !== "block") {
+                console.error(`Expected "No key points available" message to be displayed`);
+                testsPassed = false;
+            }
+            
+            // Update test results
+            const testResults = document.getElementById("test-results");
+            if (testsPassed) {
+                testResults.innerHTML = '<span class="success">✓ All tests passed!</span>';
+            } else {
+                testResults.innerHTML = '<span class="error">✗ Some tests failed. Check the console output for details.</span>';
+            }
+            
+            console.log("\nKey Points Display Test completed!");
+            
+            return testsPassed;
+        }
+
+        // Run the tests when the page loads
+        window.onload = function() {
+            testKeyPointsDisplay();
+        };
+    </script>
+</body>
+</html>

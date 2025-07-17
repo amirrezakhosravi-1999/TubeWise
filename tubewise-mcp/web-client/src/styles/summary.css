@@ -1,0 +1,103 @@
+/* Styles for Summary Section */
+.summary-content h1,
+.summary-content h2,
+.summary-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.summary-content h1 {
+  color: #6B46C1; /* purple.700 */
+  font-size: 1.5rem;
+  border-bottom: 2px solid #D6BCFA; /* purple.200 */
+  padding-bottom: 0.5rem;
+}
+
+.summary-content h2 {
+  color: #805AD5; /* purple.500 */
+  font-size: 1.25rem;
+  border-left: 3px solid #9F7AEA; /* purple.400 */
+  padding-left: 0.75rem;
+}
+
+.summary-content h3 {
+  color: #6B46C1; /* purple.700 */
+  font-size: 1.1rem;
+}
+
+.summary-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.summary-content ul,
+.summary-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.summary-content li {
+  margin-bottom: 0.5rem;
+}
+
+.summary-content strong {
+  color: #553C9A; /* purple.800 */
+  font-weight: 600;
+}
+
+.summary-content em {
+  color: #6B46C1; /* purple.700 */
+  font-style: italic;
+}
+
+/* Styling for sections */
+.summary-content [class*="Introduction"],
+.summary-content [class*="introduction"] {
+  background-color: rgba(237, 242, 247, 0.6); /* gray.100 with opacity */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid #4299E1; /* blue.500 */
+  margin-bottom: 1.5rem;
+}
+
+.summary-content [class*="Main Points"],
+.summary-content [class*="main points"] {
+  background-color: rgba(237, 242, 247, 0.6); /* gray.100 with opacity */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid #48BB78; /* green.500 */
+  margin-bottom: 1.5rem;
+}
+
+.summary-content [class*="Key Concepts"],
+.summary-content [class*="key concepts"] {
+  background-color: rgba(237, 242, 247, 0.6); /* gray.100 with opacity */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid #ED8936; /* orange.500 */
+  margin-bottom: 1.5rem;
+}
+
+.summary-content [class*="Conclusion"],
+.summary-content [class*="conclusion"] {
+  background-color: rgba(237, 242, 247, 0.6); /* gray.100 with opacity */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid #9F7AEA; /* purple.400 */
+  margin-bottom: 1.5rem;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .summary-content [class*="Introduction"],
+  .summary-content [class*="introduction"],
+  .summary-content [class*="Main Points"],
+  .summary-content [class*="main points"],
+  .summary-content [class*="Key Concepts"],
+  .summary-content [class*="key concepts"],
+  .summary-content [class*="Conclusion"],
+  .summary-content [class*="conclusion"] {
+    background-color: rgba(45, 55, 72, 0.6); /* gray.800 with opacity */
+  }
+}

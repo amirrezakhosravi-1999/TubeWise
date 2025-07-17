@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TubeWise - AI Detector Bypass - Learn to Manually Humanise AI content with me!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #6B46C1;
+            border-bottom: 2px solid #E2E8F0;
+            padding-bottom: 10px;
+        }
+        .video-container {
+            margin-bottom: 20px;
+        }
+        .summary-container {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+        }
+        .key-points-container {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+        }
+        .timestamp {
+            background-color: #805AD5;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        .point {
+            color: #4A5568;
+        }
+        .key-points-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .key-points-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .no-key-points {
+            color: #A0AEC0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>TubeWise - Key Points Test</h1>
+    
+    <div class="video-container">
+        <h2>Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LDEBs9Qw1aU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div class="summary-container">
+        <h2>Summary</h2>
+        <p>The text discusses how AI detectors analyze writing and provides tips on humanizing AI-generated content to avoid detection. AI detectors focus on factors like text perplexity, burstiness, grammar, favorite words, transitions, vocabulary, coherence, and comparing with known outputs. To humanize content, one can introduce intellectual hesitation, subtle critique, and variation in sentence openings. The text also demonstrates how to modify an AI-generated paragraph to make it undetectable. Overall, understanding and rephrasing the content in a more human-like manner is key to avoiding AI detection.</p>
+    </div>
+    
+    <div class="key-points-container">
+        <h2>Key Points with Timestamps</h2>
+        <ul class="key-points-list">
+            
+            <li>
+                <span class="timestamp" onclick="openYouTube('LDEBs9Qw1aU', '80')">80</span>
+                <span class="point">AI detectors pay attention to factors beyond just words, such as text perplexity and burstiness, sentence structure, grammar, favorite words, transitions, vocabulary, and coherence.</span>
+            </li>
+            
+            <li>
+                <span class="timestamp" onclick="openYouTube('LDEBs9Qw1aU', '285')">285</span>
+                <span class="point">AI-generated content tends to lack variation in sentence structure, consistency, and polish, making it easily detectable.</span>
+            </li>
+            
+            <li>
+                <span class="timestamp" onclick="openYouTube('LDEBs9Qw1aU', '510')">510</span>
+                <span class="point">To humanize AI-generated content, introduce intellectual hesitation, subtle critique, and variation in sentence openings and syntax.</span>
+            </li>
+            
+            <li>
+                <span class="timestamp" onclick="openYouTube('LDEBs9Qw1aU', '730')">730</span>
+                <span class="point">Humanizing AI-generated content involves toning down absolutes, simplifying complex statements, and avoiding repetitive sentence structures.</span>
+            </li>
+            
+            <li>
+                <span class="timestamp" onclick="openYouTube('LDEBs9Qw1aU', '1015')">1015</span>
+                <span class="point">It is crucial to support self-esteem building to promote linguistic and social inclusion in humanizing AI-generated content.</span>
+            </li>
+            
+            <li>
+                <span class="timestamp" onclick="openYouTube('LDEBs9Qw1aU', '1230')">1230</span>
+                <span class="point">Reading and rephrasing AI-generated content in your own words helps in humanizing the text effectively.</span>
+            </li>
+            
+            <li>
+                <span class="timestamp" onclick="openYouTube('LDEBs9Qw1aU', '1425')">1425</span>
+                <span class="point">Encouraging engagement through likes, comments, and sharing can improve the visibility and quality of educational content on platforms like YouTube.</span>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <script>
+        function openYouTube(videoId, timestamp) {
+            // Convert timestamp to seconds
+            let seconds = 0;
+            const parts = timestamp.split(':');
+            
+            if (parts.length === 3) {
+                // HH:MM:SS format
+                seconds = parseInt(parts[0]) * 3600 + parseInt(parts[1]) * 60 + parseInt(parts[2]);
+            } else if (parts.length === 2) {
+                // MM:SS format
+                seconds = parseInt(parts[0]) * 60 + parseInt(parts[1]);
+            } else {
+                // SS format
+                seconds = parseInt(parts[0]);
+            }
+            
+            // Open YouTube at specific timestamp
+            window.open(`https://www.youtube.com/watch?v=${videoId}&t=${seconds}s`, '_blank');
+        }
+    </script>
+</body>
+</html>

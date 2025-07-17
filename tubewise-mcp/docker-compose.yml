@@ -1,0 +1,44 @@
+services:
+  # Web client
+  web-client:
+    build: ./web-client
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://ai-service:8000
+    depends_on:
+      - ai-service
+
+  # AI service with FastAPI and LangGraph
+  ai-service:
+    build: ./services/ai-service
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_USER=${POSTGRES_USER}
+      - DB_PASSWORD=${POSTGRES_PASSWORD}
+      - DB_NAME=${POSTGRES_DB}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - YOUTUBE_API_KEY=${YOUTUBE_API_KEY}
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+    depends_on:
+      - db
+
+  # Database
+  db:
+    image: postgres:14
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

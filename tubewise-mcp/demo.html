@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TubeWise Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            direction: rtl;
+        }
+        h1 {
+            color: #ff0000;
+            text-align: center;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .summary-container {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .language-selector {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .language-selector button {
+            background-color: #ddd;
+            color: black;
+            margin-left: 5px;
+        }
+        .language-selector button.active {
+            background-color: #ff0000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <button onclick="changeLanguage('en')" class="active">English</button>
+        <button onclick="changeLanguage('es')">Español</button>
+        <button onclick="changeLanguage('pt')">Português</button>
+        <button onclick="changeLanguage('fa')">فارسی</button>
+    </div>
+
+    <h1 id="title">TubeWise - خلاصه‌ساز هوشمند ویدیوهای یوتیوب</h1>
+    
+    <div class="input-group">
+        <label id="url-label" for="video-url">لینک ویدیوی یوتیوب را وارد کنید:</label>
+        <input type="text" id="video-url" placeholder="https://www.youtube.com/watch?v=..." value="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+    </div>
+    
+    <button id="summarize-btn" onclick="simulateSummary()">خلاصه کردن</button>
+    
+    <div id="summary-container" class="summary-container" style="display: none;">
+        <h2 id="summary-title">خلاصه ویدیو</h2>
+        <div id="summary-content"></div>
+    </div>
+
+    <script>
+        const translations = {
+            en: {
+                title: "TubeWise - Smart YouTube Video Summarizer",
+                urlLabel: "Enter YouTube Video URL:",
+                summarizeBtn: "Summarize",
+                summaryTitle: "Video Summary",
+                summaryContent: "This video is a music video for Rick Astley's 'Never Gonna Give You Up'. The song was released in 1987 and became a worldwide hit. The video features Rick Astley singing and dancing with backup dancers. The song is known for its catchy chorus and has become an internet meme known as 'Rickrolling'."
+            },
+            es: {
+                title: "TubeWise - Resumidor Inteligente de Videos de YouTube",
+                urlLabel: "Introduce la URL del video de YouTube:",
+                summarizeBtn: "Resumir",
+                summaryTitle: "Resumen del Video",
+                summaryContent: "Este video es un video musical de 'Never Gonna Give You Up' de Rick Astley. La canción fue lanzada en 1987 y se convirtió en un éxito mundial. El video muestra a Rick Astley cantando y bailando con bailarines de respaldo. La canción es conocida por su pegadizo estribillo y se ha convertido en un meme de internet conocido como 'Rickrolling'."
+            },
+            pt: {
+                title: "TubeWise - Resumidor Inteligente de Vídeos do YouTube",
+                urlLabel: "Insira o URL do vídeo do YouTube:",
+                summarizeBtn: "Resumir",
+                summaryTitle: "Resumo do Vídeo",
+                summaryContent: "Este vídeo é um videoclipe de 'Never Gonna Give You Up' de Rick Astley. A música foi lançada em 1987 e tornou-se um sucesso mundial. O vídeo apresenta Rick Astley cantando e dançando com dançarinos de apoio. A música é conhecida por seu refrão cativante e tornou-se um meme da internet conhecido como 'Rickrolling'."
+            },
+            fa: {
+                title: "TubeWise - خلاصه‌ساز هوشمند ویدیوهای یوتیوب",
+                urlLabel: "لینک ویدیوی یوتیوب را وارد کنید:",
+                summarizeBtn: "خلاصه کردن",
+                summaryTitle: "خلاصه ویدیو",
+                summaryContent: "این ویدیو یک موزیک ویدیو برای آهنگ 'Never Gonna Give You Up' از ریک استلی است. این آهنگ در سال ۱۹۸۷ منتشر شد و به یک موفقیت جهانی تبدیل شد. در این ویدیو، ریک استلی با رقصنده‌های پشتیبان در حال خواندن و رقصیدن است. این آهنگ به خاطر کورس گوش‌نواز خود شناخته شده است و به یک میم اینترنتی به نام 'Rickrolling' تبدیل شده است."
+            }
+        };
+
+        function changeLanguage(lang) {
+            document.querySelectorAll('.language-selector button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`.language-selector button[onclick="changeLanguage('${lang}')"]`).classList.add('active');
+            
+            document.getElementById('title').textContent = translations[lang].title;
+            document.getElementById('url-label').textContent = translations[lang].urlLabel;
+            document.getElementById('summarize-btn').textContent = translations[lang].summarizeBtn;
+            document.getElementById('summary-title').textContent = translations[lang].summaryTitle;
+            
+            if (document.getElementById('summary-container').style.display !== 'none') {
+                document.getElementById('summary-content').textContent = translations[lang].summaryContent;
+            }
+
+            if (lang === 'fa' || lang === 'ar') {
+                document.body.style.direction = 'rtl';
+                document.querySelector('.language-selector').style.textAlign = 'left';
+            } else {
+                document.body.style.direction = 'ltr';
+                document.querySelector('.language-selector').style.textAlign = 'right';
+            }
+        }
+
+        function simulateSummary() {
+            const summaryContainer = document.getElementById('summary-container');
+            const summaryContent = document.getElementById('summary-content');
+            const activeLang = document.querySelector('.language-selector button.active').onclick.toString().match(/'([^']+)'/)[1];
+            
+            // Show loading state
+            summaryContainer.style.display = 'block';
+            summaryContent.textContent = 'Loading...';
+            
+            // Simulate API call delay
+            setTimeout(() => {
+                summaryContent.textContent = translations[activeLang].summaryContent;
+            }, 1500);
+        }
+    </script>
+</body>
+</html>

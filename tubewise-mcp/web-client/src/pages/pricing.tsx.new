@@ -1,0 +1,339 @@
+import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'next-i18next';
+import { 
+  Box, Container, Heading, Text, Button, Badge, 
+  useColorModeValue, Grid, GridItem, Alert, AlertIcon, Switch, Center,
+  Card, CardHeader, CardBody, List, ListItem, ListIcon
+} from '@chakra-ui/react';
+import { CheckIcon } from '@chakra-ui/icons';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+
+interface PricingPlan {
+  name: string;
+  price: number;
+  currency: string;
+  features: string[];
+  yearlyPrice?: number;
+  limits: {
+    videos_summarized: number;
+    videos_compared: number;
+    content_generated: number;
+  };
+}
+
+interface PricingData {
+  free: PricingPlan;
+  pro: PricingPlan;
+  enterprise: PricingPlan;
+}
+
+// Mock auth hook for development purposes
+const useAuth = () => {
+  return { user: null };
+};
+
+const getMockPricingData = (): PricingData => {
+  return {
+    free: {
+      name: 'Free',
+      price: 0,
+      currency: '$',
+      features: [
+        'basicSummaries',
+        'chromeExtension',
+        'limitedHistory'
+      ],
+      limits: {
+        videos_summarized: 5,
+        videos_compared: 0,
+        content_generated: 0
+      }
+    },
+    pro: {
+      name: 'Pro',
+      price: 9.99,
+      yearlyPrice: 99.99,
+      currency: '$',
+      features: [
+        'advancedSummaries',
+        'chromeExtension',
+        'multiVideoComparison',
+        'factChecking',
+        'contentGeneration',
+        'unlimitedHistory'
+      ],
+      limits: {
+        videos_summarized: 100,
+        videos_compared: 20,
+        content_generated: 50
+      }
+    },
+    enterprise: {
+      name: 'Enterprise',
+      price: 49.99,
+      yearlyPrice: 499.99,
+      currency: '$',
+      features: [
+        'advancedSummaries',
+        'chromeExtension',
+        'multiVideoComparison',
+        'factChecking',
+        'contentGeneration',
+        'unlimitedHistory',
+        'dedicatedSupport',
+        'customIntegrations',
+        'teamManagement'
+      ],
+      limits: {
+        videos_summarized: 1000,
+        videos_compared: 200,
+        content_generated: 500
+      }
+    }
+  };
+};
+
+const Pricing = () => {
+  const { t } = useTranslation('common');
+  const router = useRouter();
+  const { user } = useAuth();
+  const [isYearly, setIsYearly] = useState(false);
+  const [pricingData, setPricingData] = useState<PricingData | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // Colors
+  const bgColor = useColorModeValue('white', 'gray.800');
+  const textColor = useColorModeValue('gray.600', 'gray.200');
+  const headingColor = useColorModeValue('gray.700', 'white');
+  const cardBg = useColorModeValue('white', 'gray.700');
+  const highlightCardBg = useColorModeValue('blue.50', 'blue.900');
+  const borderColor = useColorModeValue('gray.200', 'gray.600');
+
+  useEffect(() => {
+    const fetchPricingData = async () => {
+      try {
+        setIsLoading(true);
+        setError(null);
+        
+        // In a real app, this would be an API call
+        // const response = await axios.get('/api/pricing');
+        // setPricingData(response.data);
+        
+        // For now, using mock data
+        setPricingData(getMockPricingData());
+        setIsLoading(false);
+      } catch (err) {
+        console.error('Error fetching pricing data:', err);
+        setError('Failed to load pricing information. Please try again later.');
+        setIsLoading(false);
+      }
+    };
+
+    fetchPricingData();
+  }, []);
+
+  const handleSubscribe = async (planType: 'free' | 'pro' | 'enterprise') => {
+    if (!user) {
+      // Redirect to login if not logged in
+      router.push('/auth/login?redirect=/pricing');
+      return;
+    }
+
+    try {
+      // In a real app, this would be an API call to initiate the subscription process
+      // const response = await axios.post('/api/subscriptions', {
+      //   planType,
+      //   isYearly,
+      //   userId: user.id
+      // });
+      
+      // For now, just log and redirect
+      console.log(`Subscribing to ${planType} plan, yearly: ${isYearly}`);
+      
+      // Redirect to success page or dashboard
+      router.push('/dashboard');
+    } catch (err) {
+      console.error('Error subscribing to plan:', err);
+      setError('Failed to process subscription. Please try again later.');
+    }
+  };
+
+  return (
+    <>
+      <Head>
+        <title>{t('pricing.title')} | {t('appName')}</title>
+        <meta name="description" content={t('pricing.metaDescription')} />
+      </Head>
+
+      <Box bg={bgColor} minH="100vh" py={12}>
+        <Container maxW="container.xl">
+          <Box textAlign="center" mb={16}>
+            <Heading as="h1" size="2xl" mb={4} color={headingColor}>
+              {t('pricing.title')}
+            </Heading>
+            <Text fontSize="xl" color={textColor} maxW="3xl" mx="auto">
+              {t('pricing.subtitle')}
+            </Text>
+
+            {error && (
+              <Alert status="error" mt={8}>
+                <AlertIcon />
+                {error}
+              </Alert>
+            )}
+          </Box>
+
+          {isLoading ? (
+            <Box textAlign="center" py={10}>
+              <Text>{t('common.loading')}</Text>
+            </Box>
+          ) : (
+            <>
+              <Box display="flex" alignItems="center" justifyContent="center" mb={10}>
+                <Text mr={3}>{t('pricing.monthly')}</Text>
+                <Switch 
+                  isChecked={isYearly} 
+                  onChange={() => setIsYearly(!isYearly)} 
+                  colorScheme="blue" 
+                  size="lg"
+                />
+                <Text ml={3}>
+                  {t('pricing.yearly')}
+                  <Badge ml={2} colorScheme="green">
+                    {t('pricing.save20')}
+                  </Badge>
+                </Text>
+              </Box>
+
+              <Grid 
+                templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }} 
+                gap={8}
+              >
+                {pricingData && Object.entries(pricingData).map(([key, plan]) => (
+                  <GridItem key={key}>
+                    <Card 
+                      bg={key === 'pro' ? highlightCardBg : cardBg} 
+                      borderWidth="1px" 
+                      borderColor={borderColor} 
+                      borderRadius="xl" 
+                      overflow="hidden" 
+                      boxShadow={key === 'pro' ? "lg" : "md"}
+                      height="100%"
+                      position="relative"
+                    >
+                      {key === 'pro' && (
+                        <Box 
+                          position="absolute" 
+                          top="0" 
+                          right="0" 
+                          bg="blue.500" 
+                          color="white" 
+                          px={3} 
+                          py={1} 
+                          borderBottomLeftRadius="md"
+                        >
+                          {t('pricing.mostPopular')}
+                        </Box>
+                      )}
+                      <CardHeader bg={key === 'pro' ? useColorModeValue('blue.100', 'blue.800') : 'transparent'} py={6}>
+                        <Heading size="lg" textAlign="center">{t(`pricing.${key}Title`)}</Heading>
+                      </CardHeader>
+                      <CardBody>
+                        <Box mb={6}>
+                          <Center>
+                            <Heading size="3xl">
+                              {plan.currency}{isYearly && plan.yearlyPrice ? plan.yearlyPrice : plan.price}
+                            </Heading>
+                          </Center>
+                          <Center>
+                            <Text color={textColor}>{isYearly ? t('pricing.perYear') : t('pricing.perMonth')}</Text>
+                          </Center>
+                          <List spacing={3} mt={8}>
+                            {plan.features.map((feature: string, index: number) => (
+                              <ListItem key={index} display="flex" alignItems="center">
+                                <ListIcon as={CheckIcon} color="green.500" />
+                                <Text>{t(`pricing.features.${feature}`)}</Text>
+                              </ListItem>
+                            ))}
+                          </List>
+                        </Box>
+
+                        <Box mt={8}>
+                          <Text fontWeight="bold" mb={2}>{t('pricing.limits')}:</Text>
+                          <Text>{t('pricing.videoSummaries')}: {plan.limits.videos_summarized}</Text>
+                          <Text>{t('pricing.videoComparisons')}: {plan.limits.videos_compared}</Text>
+                          <Text>{t('pricing.contentGeneration')}: {plan.limits.content_generated}</Text>
+                        </Box>
+
+                        <Button
+                          colorScheme={key === 'pro' ? "blue" : "gray"}
+                          variant={key === 'pro' ? "solid" : "outline"}
+                          size="lg"
+                          width="full"
+                          mt={8}
+                          onClick={() => handleSubscribe(key as 'free' | 'pro' | 'enterprise')}
+                        >
+                          {key === 'free' ? t('pricing.getStarted') : t('pricing.subscribe')}
+                        </Button>
+                      </CardBody>
+                    </Card>
+                  </GridItem>
+                ))}
+              </Grid>
+            </>
+          )}
+
+          <Box mt={20} textAlign="center">
+            <Heading as="h2" size="lg" mb={6} color={headingColor}>
+              {t('pricing.faq.title')}
+            </Heading>
+            
+            <Grid templateColumns={{ base: "1fr", md: "1fr 1fr" }} gap={8} maxW="container.lg" mx="auto">
+              <Box>
+                <Heading as="h3" size="md" mb={2} color={headingColor}>
+                  {t('pricing.faq.q1')}
+                </Heading>
+                <Text color={textColor}>{t('pricing.faq.a1')}</Text>
+              </Box>
+              
+              <Box>
+                <Heading as="h3" size="md" mb={2} color={headingColor}>
+                  {t('pricing.faq.q2')}
+                </Heading>
+                <Text color={textColor}>{t('pricing.faq.a2')}</Text>
+              </Box>
+              
+              <Box>
+                <Heading as="h3" size="md" mb={2} color={headingColor}>
+                  {t('pricing.faq.q3')}
+                </Heading>
+                <Text color={textColor}>{t('pricing.faq.a3')}</Text>
+              </Box>
+              
+              <Box>
+                <Heading as="h3" size="md" mb={2} color={headingColor}>
+                  {t('pricing.faq.q4')}
+                </Heading>
+                <Text color={textColor}>{t('pricing.faq.a4')}</Text>
+              </Box>
+            </Grid>
+          </Box>
+        </Container>
+      </Box>
+    </>
+  );
+};
+
+export default Pricing;
+
+export const getServerSideProps = async (context: any) => {
+  const { locale } = context;
+  return {
+    props: {
+      ...(await serverSideTranslations(locale || 'en', ['common'])),
+    },
+  };
+};

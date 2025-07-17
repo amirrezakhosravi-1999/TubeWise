@@ -1,0 +1,24 @@
+{
+  "name": "video-summary-service",
+  "version": "1.0.0",
+  "description": "TubeWise Video Summary Service",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "openai": "^4.20.1",
+    "youtube-transcript": "^1.0.6",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}

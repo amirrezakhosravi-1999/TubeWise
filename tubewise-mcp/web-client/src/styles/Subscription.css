@@ -1,0 +1,121 @@
+.subscription-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subscription-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.subscription-card .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  padding: 20px;
+}
+
+.plan-details {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.plan-details li {
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.plan-details li:last-child {
+  border-bottom: none;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.status-badge.active {
+  background-color: #28a745;
+  color: white;
+}
+
+.status-badge.trialing {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.status-badge.past_due {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.status-badge.cancelled {
+  background-color: #dc3545;
+  color: white;
+}
+
+.usage-limits {
+  margin-top: 20px;
+}
+
+.usage-item {
+  margin-bottom: 20px;
+}
+
+.usage-item .progress {
+  height: 10px;
+  margin-top: 8px;
+}
+
+.feature-card {
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card.current-plan {
+  border: 2px solid #4a6cf7;
+}
+
+.feature-card .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  padding: 15px 20px;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-list li {
+  padding: 12px 5px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+.feature-list li:last-child {
+  border-bottom: none;
+}
+
+.subscription-info {
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    margin-bottom: 30px;
+  }
+}
